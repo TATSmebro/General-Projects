@@ -1,0 +1,75 @@
+
+@import '../App.scss';
+
+
+
+.c-callout {
+    
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem 0rem;
+    //overflow: hidden; // To make inner header background color curve to border radius
+    width: 70ch;
+    position: relative;
+    
+
+    &__toggle {
+        font-size: 0.9em;
+        &:hover {
+            
+        }
+        &--reveal {
+            composes: fa-rotate from global;
+            font-size: 0.9em;
+        }
+    }
+
+    &__header {
+        background-color: var(--tfblue-color-tint-8);
+        border: 1px var(--tfblue-color) solid;
+        border-bottom: 1px var(--tfblue-color-tint-2) dashed;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        cursor: pointer;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        
+        &:hover{
+            background-color: var(--tfblue-color-tint-7);
+        }
+    }
+
+    &__heading {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        font-size: 1.5rem;
+        gap: 0rem 0.75rem;
+        
+    }
+    
+    &__content {
+
+        border: 1px var(--tfblue-color) solid;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: none;
+        position: absolute;
+        top: 100%;
+        
+        
+        &--reveal{
+            padding-top: 15px;
+            border: 1px var(--tfblue-color) solid;
+            border-top: none;
+            border-bottom-left-radius: 15px;   
+            border-bottom-right-radius: 15px;
+            display:block;
+            position: absolute;
+            top: 100%;
+        }
+    }
+}
+
+
+

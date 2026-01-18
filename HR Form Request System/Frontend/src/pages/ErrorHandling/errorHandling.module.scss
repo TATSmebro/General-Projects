@@ -1,0 +1,50 @@
+
+.o-error-layout { // Layouts the main content container within the page
+
+    display: flex;
+    justify-content: center;
+}
+
+.c-figure {
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+
+    &__image {
+        width: 100%;
+    }
+}
+
+
+.c-error { // Layouts the inner content
+
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 5vh 0vh;
+    justify-content: flex-start;
+    padding: 10rem 2rem 10rem 2rem;
+
+    &__heading {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    &__message{
+        font-size: 1.2em;
+    }
+}
+
+
+.c-callout {
+    flex: auto;
+    width: 60ch;
+    
+    @media (max-width: 768px) {
+        width: 90vw;
+    }
+}
+

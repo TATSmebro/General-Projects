@@ -1,0 +1,49 @@
+
+
+/* Rest Input Number Styling */
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 3px 0px;
+
+}
+
+.otp-input {
+
+  // Layout
+  align-items: center;
+  display: flex;
+  gap: 0px 15px;
+  justify-content: space-evenly;
+
+}
+
+.otp-input__number {
+  // Box Model
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  border-radius: 18px;
+  box-sizing: border-box;
+  min-width: 50px;
+  max-width: 50px;
+
+  // Layout
+  flex: auto;
+
+  // Text
+  text-align: center;
+  
+}
+
+.form-legend {
+
+  // Box Model
+  margin-top: 15px;
+  
+  // Text
+  font-size: inherit;
+  text-align: center;
+}

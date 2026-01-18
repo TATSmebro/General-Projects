@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --white: #ffffff;
+    --dark-green: #006341;  
+    --dark-green2: #008b5e;       
+    --another-green: #00a972;       
+    --hover-button: #004d34;
+    --light-green: #b6e3c6; 
+    --v1-gray: #e5e7e6;    
+    --v2-gray: #dbdbdb;
+    --v3-gray: #a5a5a5;
+
+    --hot-pink: #e53935;          
+    --bg-color: #f4f6f5;       
+    --text-color: #1c1c1c;
+    --whitesmoke: #f7f7f7;
+    --hint-green: #dcefe6;          
+    --new-border: #d9e2de;
+    --btn: #ebf4f1;
+    --disable-input: #e2e2e2;
+    --disable-text: #707070;
+    --new-white: #ffffff;
+
+    --table-b-shadow: rgba(0, 0, 0, 0.06);
+    --overlay-dark: rgba(0, 50, 33, 0.3);
+    --overlay-light: rgba(0, 50, 33, 0.05);
+    --txt-shadow: rgba(0, 0, 0, 0.1);
+    --green-overlay: rgba(0, 163, 114, 0.15);
+    --shadow: rgba(0, 0, 0, 0.2);
+    --white-login: #ffffff;
+
+    --status-new: #1565c0;
+    --status-pend: #b4009e;
+    --status-progress: #fdd835;
+    --status-hold: #f57c00;
+    --status-comp: #43a047;
+    --status-cancel: #e53935;
+    --status-open: #0288d1;
+    --status-closed: #78909c;
+
+    --status-new-light: #dceeff;
+    --status-pend-light: #f3d1f7;
+    --status-progress-light: #fff9c4;
+    --status-hold-light: #ffe0b2;
+    --status-comp-light: #c8e6c9;
+    --status-cancel-light: #ffcdd2;
+    --status-open-light: #b3e5fc;
+    --status-closed-light: #eceff1;
+
+    --tsm-left: left 0.3s ease;
+    --tsm-width: width 0.3s ease;
+    --tsm-l-w: var(--tsm-left), var(--tsm-width);
+    --tsm-pad: padding-left 0.3s ease;
+}
+
+body.dark-mode {
+    --white: #121212;
+    
+    --dark-green: #1bb38a;       
+    --dark-green2: #19a381;      
+    --another-green: #2cd0a3;    
+    --hover-button: #147f61;     
+    --light-green: #2f6652;      
+
+    --v1-gray: #1e1e1e;          
+    --v2-gray: #3c3c3c;
+    --v3-gray: #666666;
+
+    --hot-pink: #ff6f61;
+    --bg-color: #181a1b;
+    --text-color: #f2f2f2;
+
+    --sidebar-bg-color: #202020;
+    --sidebar-text-color: #e5e5e5;
+    --sidebar-header-color: var(--another-green);
+
+    --whitesmoke: #292929;
+    --hint-green: #3a5f51;
+    --new-border: #2c2c2c;
+    --btn: #2b2b2b;
+
+    --disable-input: #3a3a3a;
+    --disable-text: #9c9c9c;
+
+    --new-white: var(--v1-gray);
+
+    --table-b-shadow: rgba(255, 255, 255, 0.05);
+    --overlay-dark: rgba(49, 51, 50, 0.5);
+    --overlay-light: rgba(110, 118, 112, 0.15);
+    --txt-shadow: rgba(0, 0, 0, 0.6);
+    --green-overlay: rgba(22, 66, 52, 0.5);
+
+    --shadow: rgba(0, 0, 0, 0.25);
+
+    --white-login: #3af4c3;
+}
+
+

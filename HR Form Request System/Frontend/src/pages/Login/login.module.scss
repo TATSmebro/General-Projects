@@ -1,0 +1,203 @@
+
+
+
+.login-figure{
+  // Layout
+  display: flex;
+
+  &__image{
+    // Box Model
+    aspect-ratio: 1 / 1;
+    border-radius: 75px;
+    width: 100%;
+  }
+}
+
+.login-container {
+  
+  // Box Model
+  box-sizing: border-box;
+
+  // Layout
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+}
+
+.login-header {
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em 0em;
+  text-align: center;
+
+  &__h1 {
+
+    // Text
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  &__strong {
+    color: var(--tforange-color);
+  }
+}
+
+.login-form {
+
+  // Display
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem 0rem;
+  justify-content: space-evenly;
+
+
+  &__link{
+    composes: link from global;
+    
+    font-size: 0.8em;
+  }
+  
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 3px 0px;
+  
+  &__input-text {
+    // Box Model
+    border: 1px solid black;
+    field-sizing: content;
+    padding: 10px;
+  }
+
+  &__input-button {
+    border: 1px solid black;
+    background-color: transparent;
+    color: inherit;
+
+    &:hover {
+      border: 1px solid black;
+      background-color: inherit;
+      color: inherit;
+    }
+
+    &:active {
+      background-color: transparent;
+      color: inherit;
+    }
+  }
+}
+
+
+
+.button-row {
+
+  // Display
+  display: flex;
+  justify-content: space-evenly;
+
+  &__button {
+    
+    border-color: transparent;
+    border-radius: 15px;
+
+    padding: 8px 50px;
+
+    // Text
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+  
+    &--affirm{
+      composes: button-row__button;
+      
+      background-color: var(--tforange-color);
+      
+      // Text
+      color: #FFFFFF;
+
+    }
+
+    &--affirm:hover{
+
+      background-color: var(--tfaffirm-hover);
+    }
+
+    &--affirm:active{
+
+      background-color: white;
+
+      color: var(--tforange-color);
+    }
+
+    &--negate{
+      composes: button-row__button;
+
+      background-color: #f5ece2; // TODO Change Coloring to Variable
+      color: var(--tforange-color);
+
+    }
+
+    &--negate:hover{
+
+      background-color: var(--tfneg-hover);
+    }
+
+    &--negate:active{
+
+      background-color: white;
+      border-color: var(--tforange-color);
+    }
+  }
+}
+
+.error-text {
+  color: red;
+}
+
+/* ### TwoFactorAuth PAGE (OTP) */
+
+
+.otp-input {
+
+  // Layout
+  align-items: center;
+  display: flex;
+  gap: 0px 15px;
+  justify-content: space-evenly;
+
+}
+
+.otp-input__number {
+  // Box Model
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  border-radius: 18px;
+  box-sizing: border-box;
+  min-width: 50px;
+  max-width: 50px;
+
+  // Layout
+  flex: auto;
+
+  // Text
+  text-align: center;
+  
+}
+
+.form-legend {
+
+  // Box Model
+  margin-top: 15px;
+  
+  // Text
+  font-size: inherit;
+  text-align: center;
+}
