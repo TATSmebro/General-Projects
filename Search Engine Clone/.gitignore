@@ -1,0 +1,46 @@
+# Compiled files
+*.out
+*.o
+multithreaded
+CSR
+PageRank
+SearchEngine
+test_csr2
+
+# Build directories
+.runner_build_p2/
+
+# Generated files
+files/**
+data/**
+tmp/**
+
+# Sanity check outputs and backups
+part-1-outputs.backup.*/
+part-1-outputs.stress.backup.*/
+part-1-outputs.valgrind.backup.*/
+
+# Temporary test files
+test_csr_build_tmp
+test_csr_build_tmp.c
+test_csr_output.bin
+test_nodes_output.txt
+csr_builder_tmp
+csr_builder_tmp.c
+pagerank_wrapper.c
+
+# Python
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Temporary files
+*.swp
+*~
+.vscode/
+.DS_Store
+
+# Log files
+*.log

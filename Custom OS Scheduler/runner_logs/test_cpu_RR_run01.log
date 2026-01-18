@@ -1,0 +1,16 @@
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 1 -nographic -global virtio-mmio.force-legacy=false -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+Using Policy: RR
+
+xv6 kernel is booting
+
+init: starting sh
+$ test_cpu
+18|active|0(0),[1]init:2(10),[2]sh:4(10)
+$ shutdown
+23|active|0(0),[1]init:2(10),[2]sh:4(10)
+23|active|0(0),[1]init:2(10),[2]sh:2(10),[4]sh:4(10)
+23|active|0(0),[1]init:2(10),[2]sh:2(10),[4]sh:4(10)
+23|active|0(0),[1]init:2(10),[2]sh:2(10),[4]sh:4(10)
+23|active|0(0),[1]init:2(10),[2]sh:2(10),[4]sh:4(10)
+23|active|0(0),[1]init:2(10),[2]sh:2(10),[4]sh:4(10)
+23|active|0(0),[1]init:2(10),[2]sh:4(10)

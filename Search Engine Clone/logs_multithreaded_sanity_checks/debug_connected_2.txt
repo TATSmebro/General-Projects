@@ -1,0 +1,24 @@
+========================================
+TEST: connected with 2 threads
+========================================
+
+--- ACTUAL OUTPUT (First 20 lines) ---
+files/dir_001/file_010.gji|file_010.gji|[file_009.tid]|[file_011.gym]
+files/dir_001/file_013.izc|file_013.izc|[file_012.xlp]|[file_014.qdh]
+files/dir_001/file_012.xlp|file_012.xlp|[file_011.gym]|[file_000.kyn,file_013.izc]
+files/dir_001/file_011.gym|file_011.gym|[file_000.kyn,file_010.gji]|[file_012.xlp]
+files/dir_001/file_014.qdh|file_014.qdh|[file_002.omf,file_013.izc]|[file_000.kyn,file_009.tid]
+files/file_002.omf|file_002.omf|[file_001.uag]|[file_003.vtg,file_014.qdh]
+files/file_001.uag|file_001.uag|[file_000.kyn]|[file_002.omf,file_009.tid]
+files/file_003.vtg|file_003.vtg|[file_002.omf,file_005.hbm,file_007.zdd]|[file_004.lpc,file_009.tid]
+files/file_004.lpc|file_004.lpc|[file_003.vtg]|[file_005.hbm]
+files/file_000.kyn|file_000.kyn|[file_012.xlp,file_014.qdh]|[file_001.uag,file_011.gym]
+files/dir_000/file_009.tid|file_009.tid|[file_001.uag,file_003.vtg,file_008.uwa,file_014.qdh]|[file_010.gji]
+files/dir_000/file_005.hbm|file_005.hbm|[file_004.lpc]|[file_003.vtg,file_006.ykw]
+files/dir_000/file_006.ykw|file_006.ykw|[file_005.hbm]|[file_007.zdd]
+files/dir_000/file_008.uwa|file_008.uwa|[file_007.zdd]|[file_009.tid]
+files/dir_000/file_007.zdd|file_007.zdd|[file_006.ykw]|[file_003.vtg,file_008.uwa]
+... (see part-1-outputs/connected_2_file_links.txt for full content)
+
+--- VERIFICATION REPORT ---
+SUCCESS: Verified 15 files. All links match.

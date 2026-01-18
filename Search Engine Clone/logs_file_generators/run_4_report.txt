@@ -1,0 +1,7957 @@
+
+========================================
+TEST RUN: Tue Dec 16 07:17:17 PM UTC 2025
+Parameters: MAX_FILES=5, MAX_DIRS=3, MAX_DEPTH=3, DIR_STRUCTURE=forest
+========================================
+
++ CS 140 File Generator Tester
+Testing with parameters:
+  MAX_FILES:      5
+  MAX_DIRS:       3
+  MAX_DEPTH:      3
+  DIR_STRUCTURE:  forest
+
++ Generated Files Structure and Contents
+[INFO] Logging directory structure...
+
+Directory Tree:
+---------------
+files:
+dir_000
+dir_004
+dir_008
+file_000.eqm
+file_001.cht
+file_002.qzu
+file_003.fkd
+file_004.zsb
+
+files/dir_000:
+dir_001
+dir_002
+dir_003
+file_005.ext
+file_006.oxs
+file_007.jlv
+file_008.rht
+file_009.jqg
+
+files/dir_000/dir_001:
+file_010.ich
+file_011.uze
+file_012.sqk
+file_013.rsu
+file_014.oph
+
+files/dir_000/dir_002:
+file_015.rmp
+file_016.znm
+file_017.qnd
+file_018.ngq
+file_019.fke
+
+files/dir_000/dir_003:
+file_020.eub
+file_021.fgf
+file_022.ewb
+file_023.tds
+file_024.iwh
+
+files/dir_004:
+dir_005
+dir_006
+dir_007
+file_025.los
+file_026.uef
+file_027.wqm
+file_028.phk
+file_029.zmy
+
+files/dir_004/dir_005:
+file_030.vrs
+file_031.uib
+file_032.oba
+file_033.jol
+file_034.fym
+
+files/dir_004/dir_006:
+file_035.lzy
+file_036.lft
+file_037.scb
+file_038.uto
+file_039.dcv
+
+files/dir_004/dir_007:
+file_040.zvy
+file_041.rat
+file_042.cgj
+file_043.pgo
+file_044.utp
+
+files/dir_008:
+dir_009
+dir_010
+dir_011
+file_045.vxb
+file_046.tto
+file_047.jbo
+file_048.zwg
+file_049.gvf
+
+files/dir_008/dir_009:
+file_050.bxp
+file_051.uyx
+file_052.mkh
+file_053.utu
+file_054.sou
+
+files/dir_008/dir_010:
+file_055.hnm
+file_056.aro
+file_057.oda
+file_058.ydx
+file_059.fmi
+
+files/dir_008/dir_011:
+file_060.fid
+file_061.zld
+file_062.hms
+file_063.mck
+file_064.unh
+[INFO] Logging file contents...
+
+File Contents:
+--------------
+
+files/dir_000/dir_001/file_010.ich = [
+  file_011.uze
+]
+
+files/dir_000/dir_001/file_011.uze = [
+  file_012.sqk
+]
+
+files/dir_000/dir_001/file_012.sqk = [
+  file_013.rsu
+]
+
+files/dir_000/dir_001/file_013.rsu = [
+  file_014.oph
+]
+
+files/dir_000/dir_001/file_014.oph = [
+  file_010.ich
+]
+
+files/dir_000/dir_002/file_015.rmp = [
+  file_016.znm
+]
+
+files/dir_000/dir_002/file_016.znm = [
+  file_017.qnd
+]
+
+files/dir_000/dir_002/file_017.qnd = [
+  file_018.ngq
+]
+
+files/dir_000/dir_002/file_018.ngq = [
+  file_019.fke
+]
+
+files/dir_000/dir_002/file_019.fke = [
+  file_015.rmp
+]
+
+files/dir_000/dir_003/file_020.eub = [
+  file_021.fgf
+]
+
+files/dir_000/dir_003/file_021.fgf = [
+  file_022.ewb
+]
+
+files/dir_000/dir_003/file_022.ewb = [
+  file_023.tds
+]
+
+files/dir_000/dir_003/file_023.tds = [
+  file_024.iwh
+]
+
+files/dir_000/dir_003/file_024.iwh = [
+  file_020.eub
+]
+
+files/dir_000/file_005.ext = [
+  file_006.oxs
+]
+
+files/dir_000/file_006.oxs = [
+  file_007.jlv
+]
+
+files/dir_000/file_007.jlv = [
+  file_008.rht
+]
+
+files/dir_000/file_008.rht = [
+  file_009.jqg
+]
+
+files/dir_000/file_009.jqg = [
+  file_005.ext
+]
+
+files/dir_004/dir_005/file_030.vrs = [
+  file_031.uib
+]
+
+files/dir_004/dir_005/file_031.uib = [
+  file_032.oba
+]
+
+files/dir_004/dir_005/file_032.oba = [
+  file_033.jol
+]
+
+files/dir_004/dir_005/file_033.jol = [
+  file_034.fym
+]
+
+files/dir_004/dir_005/file_034.fym = [
+  file_030.vrs
+]
+
+files/dir_004/dir_006/file_035.lzy = [
+  file_036.lft
+]
+
+files/dir_004/dir_006/file_036.lft = [
+  file_037.scb
+]
+
+files/dir_004/dir_006/file_037.scb = [
+  file_038.uto
+]
+
+files/dir_004/dir_006/file_038.uto = [
+  file_039.dcv
+]
+
+files/dir_004/dir_006/file_039.dcv = [
+  file_035.lzy
+]
+
+files/dir_004/dir_007/file_040.zvy = [
+  file_041.rat
+]
+
+files/dir_004/dir_007/file_041.rat = [
+  file_042.cgj
+]
+
+files/dir_004/dir_007/file_042.cgj = [
+  file_043.pgo
+]
+
+files/dir_004/dir_007/file_043.pgo = [
+  file_044.utp
+]
+
+files/dir_004/dir_007/file_044.utp = [
+  file_040.zvy
+]
+
+files/dir_004/file_025.los = [
+  file_026.uef
+]
+
+files/dir_004/file_026.uef = [
+  file_027.wqm
+]
+
+files/dir_004/file_027.wqm = [
+  file_028.phk
+]
+
+files/dir_004/file_028.phk = [
+  file_029.zmy
+]
+
+files/dir_004/file_029.zmy = [
+  file_025.los
+]
+
+files/dir_008/dir_009/file_050.bxp = [
+  file_051.uyx
+]
+
+files/dir_008/dir_009/file_051.uyx = [
+  file_052.mkh
+]
+
+files/dir_008/dir_009/file_052.mkh = [
+  file_053.utu
+]
+
+files/dir_008/dir_009/file_053.utu = [
+  file_054.sou
+]
+
+files/dir_008/dir_009/file_054.sou = [
+  file_050.bxp
+]
+
+files/dir_008/dir_010/file_055.hnm = [
+  file_056.aro
+]
+
+files/dir_008/dir_010/file_056.aro = [
+  file_057.oda
+]
+
+files/dir_008/dir_010/file_057.oda = [
+  file_058.ydx
+]
+
+files/dir_008/dir_010/file_058.ydx = [
+  file_059.fmi
+]
+
+files/dir_008/dir_010/file_059.fmi = [
+  file_055.hnm
+]
+
+files/dir_008/dir_011/file_060.fid = [
+  file_061.zld
+]
+
+files/dir_008/dir_011/file_061.zld = [
+  file_062.hms
+]
+
+files/dir_008/dir_011/file_062.hms = [
+  file_063.mck
+]
+
+files/dir_008/dir_011/file_063.mck = [
+  file_064.unh
+]
+
+files/dir_008/dir_011/file_064.unh = [
+  file_060.fid
+]
+
+files/dir_008/file_045.vxb = [
+  file_046.tto
+]
+
+files/dir_008/file_046.tto = [
+  file_047.jbo
+]
+
+files/dir_008/file_047.jbo = [
+  file_048.zwg
+]
+
+files/dir_008/file_048.zwg = [
+  file_049.gvf
+]
+
+files/dir_008/file_049.gvf = [
+  file_045.vxb
+]
+
+files/file_000.eqm = [
+  file_001.cht
+]
+
+files/file_001.cht = [
+  file_002.qzu
+]
+
+files/file_002.qzu = [
+  file_003.fkd
+]
+
+files/file_003.fkd = [
+  file_004.zsb
+]
+
+files/file_004.zsb = [
+  file_000.eqm
+]
+[PASS] File structure and contents logged
+
++ Test 1: Directory Existence
+[TEST] Checking if ./files/ directory exists
+[PASS] Directory ./files/ exists
+
++ Test 2: File Naming Convention
+[TEST] Checking file naming pattern: file_XXX.EXT
+[INFO] Found 65 files
+[PASS] All files follow naming convention file_XXX.EXT
+
++ Test 3: File Uniqueness
+[TEST] Checking that all file numbers are unique
+[PASS] All 65 file numbers are unique
+
++ Test 4: Directory Naming Convention
+[TEST] Checking directory naming pattern: dir_XXX
+[INFO] Found 12 subdirectories
+[PASS] All directories follow naming convention dir_XXX
+
++ Test 5: Directory Uniqueness
+[TEST] Checking that all directory numbers are unique
+[PASS] All 12 directory numbers are unique
+
++ Test 6: Maximum Depth Constraint
+[TEST] Checking that directory depth does not exceed MAX_DEPTH=3
+[PASS] All directories respect MAX_DEPTH=3 (max found: 2)
+
++ Test 7: Files Per Directory Constraint
+[TEST] Checking that each directory has 1-5 files
+[PASS] All directories have valid file counts (1-5)
+
++ Test 8: Subdirectories Per Directory Constraint
+[TEST] Checking that each directory has 0-3 subdirectories
+[PASS] All directories have valid subdirectory counts (0-3)
+
++ Test 9: Link Structure Validation
+[TEST] Validating link structure for type: forest
+[INFO] Checking FOREST structure: files only link within same directory
+[PASS] All links are within same directory (forest structure)
+
++ Test 10: Self-Link Check
+[TEST] Checking that no file links to itself
+[PASS] No self-links found
+
++ Test Summary
+Total Tests: 11
+Passed: 11
+Failed: 0
+
+========================================
+ALL TESTS PASSED!
+========================================
+
+========================================
+TEST RUN: Tue Dec 16 07:17:19 PM UTC 2025
+Parameters: MAX_FILES=5, MAX_DIRS=3, MAX_DEPTH=3, DIR_STRUCTURE=connected
+========================================
+
++ CS 140 File Generator Tester
+Testing with parameters:
+  MAX_FILES:      5
+  MAX_DIRS:       3
+  MAX_DEPTH:      3
+  DIR_STRUCTURE:  connected
+
++ Generated Files Structure and Contents
+[INFO] Logging directory structure...
+
+Directory Tree:
+---------------
+files:
+dir_000
+dir_004
+dir_008
+file_000.xkr
+file_001.xns
+file_002.dxe
+file_003.xba
+file_004.sqg
+
+files/dir_000:
+dir_001
+dir_002
+dir_003
+file_005.wzu
+file_006.gil
+file_007.tfe
+file_008.upm
+file_009.fqi
+
+files/dir_000/dir_001:
+file_010.crp
+file_011.ksk
+file_012.yyk
+file_013.syv
+file_014.azn
+
+files/dir_000/dir_002:
+file_015.vju
+file_016.umk
+file_017.yfe
+file_018.aht
+file_019.ktg
+
+files/dir_000/dir_003:
+file_020.cqy
+file_021.bhg
+file_022.mjr
+file_023.yri
+file_024.ggy
+
+files/dir_004:
+dir_005
+dir_006
+dir_007
+file_025.czb
+file_026.fxv
+file_027.eqs
+file_028.hqj
+file_029.jia
+
+files/dir_004/dir_005:
+file_030.mqe
+file_031.ago
+file_032.puy
+file_033.dfx
+file_034.ryc
+
+files/dir_004/dir_006:
+file_035.cdq
+file_036.beu
+file_037.wik
+file_038.krj
+file_039.aqi
+
+files/dir_004/dir_007:
+file_040.oig
+file_041.ybt
+file_042.zhf
+file_043.whz
+file_044.byc
+
+files/dir_008:
+dir_009
+dir_010
+dir_011
+file_045.vuu
+file_046.yob
+file_047.pkh
+file_048.kel
+file_049.hye
+
+files/dir_008/dir_009:
+file_050.tqj
+file_051.axs
+file_052.uog
+file_053.hqg
+file_054.pbx
+
+files/dir_008/dir_010:
+file_055.zjd
+file_056.xnp
+file_057.oin
+file_058.ubb
+file_059.bfz
+
+files/dir_008/dir_011:
+file_060.atp
+file_061.ews
+file_062.qga
+file_063.nwl
+file_064.ped
+[INFO] Logging file contents...
+
+File Contents:
+--------------
+
+files/dir_000/dir_001/file_010.crp = [
+  file_011.ksk
+]
+
+files/dir_000/dir_001/file_011.ksk = [
+  file_012.yyk
+  file_015.vju
+]
+
+files/dir_000/dir_001/file_012.yyk = [
+  file_013.syv
+  file_002.dxe
+]
+
+files/dir_000/dir_001/file_013.syv = [
+  file_014.azn
+]
+
+files/dir_000/dir_001/file_014.azn = [
+  file_015.vju
+]
+
+files/dir_000/dir_002/file_015.vju = [
+  file_016.umk
+]
+
+files/dir_000/dir_002/file_016.umk = [
+  file_017.yfe
+  file_061.ews
+]
+
+files/dir_000/dir_002/file_017.yfe = [
+  file_018.aht
+]
+
+files/dir_000/dir_002/file_018.aht = [
+  file_019.ktg
+]
+
+files/dir_000/dir_002/file_019.ktg = [
+  file_020.cqy
+  file_000.xkr
+]
+
+files/dir_000/dir_003/file_020.cqy = [
+  file_021.bhg
+  file_010.crp
+]
+
+files/dir_000/dir_003/file_021.bhg = [
+  file_022.mjr
+]
+
+files/dir_000/dir_003/file_022.mjr = [
+  file_023.yri
+  file_040.oig
+]
+
+files/dir_000/dir_003/file_023.yri = [
+  file_024.ggy
+  file_014.azn
+]
+
+files/dir_000/dir_003/file_024.ggy = [
+  file_025.czb
+]
+
+files/dir_000/file_005.wzu = [
+  file_006.gil
+]
+
+files/dir_000/file_006.gil = [
+  file_007.tfe
+]
+
+files/dir_000/file_007.tfe = [
+  file_008.upm
+]
+
+files/dir_000/file_008.upm = [
+  file_009.fqi
+]
+
+files/dir_000/file_009.fqi = [
+  file_010.crp
+]
+
+files/dir_004/dir_005/file_030.mqe = [
+  file_031.ago
+  file_058.ubb
+]
+
+files/dir_004/dir_005/file_031.ago = [
+  file_032.puy
+]
+
+files/dir_004/dir_005/file_032.puy = [
+  file_033.dfx
+  file_027.eqs
+]
+
+files/dir_004/dir_005/file_033.dfx = [
+  file_034.ryc
+]
+
+files/dir_004/dir_005/file_034.ryc = [
+  file_035.cdq
+]
+
+files/dir_004/dir_006/file_035.cdq = [
+  file_036.beu
+  file_059.bfz
+]
+
+files/dir_004/dir_006/file_036.beu = [
+  file_037.wik
+]
+
+files/dir_004/dir_006/file_037.wik = [
+  file_038.krj
+]
+
+files/dir_004/dir_006/file_038.krj = [
+  file_039.aqi
+]
+
+files/dir_004/dir_006/file_039.aqi = [
+  file_040.oig
+  file_042.zhf
+]
+
+files/dir_004/dir_007/file_040.oig = [
+  file_041.ybt
+]
+
+files/dir_004/dir_007/file_041.ybt = [
+  file_042.zhf
+]
+
+files/dir_004/dir_007/file_042.zhf = [
+  file_043.whz
+]
+
+files/dir_004/dir_007/file_043.whz = [
+  file_044.byc
+  file_013.syv
+]
+
+files/dir_004/dir_007/file_044.byc = [
+  file_045.vuu
+  file_023.yri
+]
+
+files/dir_004/file_025.czb = [
+  file_026.fxv
+]
+
+files/dir_004/file_026.fxv = [
+  file_027.eqs
+]
+
+files/dir_004/file_027.eqs = [
+  file_028.hqj
+  file_055.zjd
+]
+
+files/dir_004/file_028.hqj = [
+  file_029.jia
+  file_024.ggy
+]
+
+files/dir_004/file_029.jia = [
+  file_030.mqe
+]
+
+files/dir_008/dir_009/file_050.tqj = [
+  file_051.axs
+]
+
+files/dir_008/dir_009/file_051.axs = [
+  file_052.uog
+  file_062.qga
+]
+
+files/dir_008/dir_009/file_052.uog = [
+  file_053.hqg
+  file_034.ryc
+]
+
+files/dir_008/dir_009/file_053.hqg = [
+  file_054.pbx
+  file_039.aqi
+]
+
+files/dir_008/dir_009/file_054.pbx = [
+  file_055.zjd
+  file_064.ped
+]
+
+files/dir_008/dir_010/file_055.zjd = [
+  file_056.xnp
+  file_033.dfx
+]
+
+files/dir_008/dir_010/file_056.xnp = [
+  file_057.oin
+  file_043.whz
+]
+
+files/dir_008/dir_010/file_057.oin = [
+  file_058.ubb
+]
+
+files/dir_008/dir_010/file_058.ubb = [
+  file_059.bfz
+]
+
+files/dir_008/dir_010/file_059.bfz = [
+  file_060.atp
+]
+
+files/dir_008/dir_011/file_060.atp = [
+  file_061.ews
+]
+
+files/dir_008/dir_011/file_061.ews = [
+  file_062.qga
+]
+
+files/dir_008/dir_011/file_062.qga = [
+  file_063.nwl
+  file_008.upm
+]
+
+files/dir_008/dir_011/file_063.nwl = [
+  file_064.ped
+]
+
+files/dir_008/dir_011/file_064.ped = [
+  file_000.xkr
+  file_019.ktg
+]
+
+files/dir_008/file_045.vuu = [
+  file_046.yob
+  file_012.yyk
+]
+
+files/dir_008/file_046.yob = [
+  file_047.pkh
+]
+
+files/dir_008/file_047.pkh = [
+  file_048.kel
+  file_040.oig
+]
+
+files/dir_008/file_048.kel = [
+  file_049.hye
+]
+
+files/dir_008/file_049.hye = [
+  file_050.tqj
+  file_033.dfx
+]
+
+files/file_000.xkr = [
+  file_001.xns
+]
+
+files/file_001.xns = [
+  file_002.dxe
+  file_008.upm
+]
+
+files/file_002.dxe = [
+  file_003.xba
+]
+
+files/file_003.xba = [
+  file_004.sqg
+  file_040.oig
+]
+
+files/file_004.sqg = [
+  file_005.wzu
+  file_050.tqj
+]
+[PASS] File structure and contents logged
+
++ Test 1: Directory Existence
+[TEST] Checking if ./files/ directory exists
+[PASS] Directory ./files/ exists
+
++ Test 2: File Naming Convention
+[TEST] Checking file naming pattern: file_XXX.EXT
+[INFO] Found 65 files
+[PASS] All files follow naming convention file_XXX.EXT
+
++ Test 3: File Uniqueness
+[TEST] Checking that all file numbers are unique
+[PASS] All 65 file numbers are unique
+
++ Test 4: Directory Naming Convention
+[TEST] Checking directory naming pattern: dir_XXX
+[INFO] Found 12 subdirectories
+[PASS] All directories follow naming convention dir_XXX
+
++ Test 5: Directory Uniqueness
+[TEST] Checking that all directory numbers are unique
+[PASS] All 12 directory numbers are unique
+
++ Test 6: Maximum Depth Constraint
+[TEST] Checking that directory depth does not exceed MAX_DEPTH=3
+[PASS] All directories respect MAX_DEPTH=3 (max found: 2)
+
++ Test 7: Files Per Directory Constraint
+[TEST] Checking that each directory has 1-5 files
+[PASS] All directories have valid file counts (1-5)
+
++ Test 8: Subdirectories Per Directory Constraint
+[TEST] Checking that each directory has 0-3 subdirectories
+[PASS] All directories have valid subdirectory counts (0-3)
+
++ Test 9: Link Structure Validation
+[TEST] Validating link structure for type: connected
+[INFO] Checking CONNECTED structure: each file should have at least 1 outlink
+[PASS] All files have at least 1 outlink
+[PASS] All links reference existing files
+
++ Test 10: Self-Link Check
+[TEST] Checking that no file links to itself
+[PASS] No self-links found
+
++ Test Summary
+Total Tests: 12
+Passed: 12
+Failed: 0
+
+========================================
+ALL TESTS PASSED!
+========================================
+
+========================================
+TEST RUN: Tue Dec 16 07:17:20 PM UTC 2025
+Parameters: MAX_FILES=5, MAX_DIRS=3, MAX_DEPTH=3, DIR_STRUCTURE=full
+========================================
+
++ CS 140 File Generator Tester
+Testing with parameters:
+  MAX_FILES:      5
+  MAX_DIRS:       3
+  MAX_DEPTH:      3
+  DIR_STRUCTURE:  full
+
++ Generated Files Structure and Contents
+[INFO] Logging directory structure...
+
+Directory Tree:
+---------------
+files:
+dir_000
+dir_004
+dir_008
+file_000.buy
+file_001.mdc
+file_002.skd
+file_003.per
+file_004.ueg
+
+files/dir_000:
+dir_001
+dir_002
+dir_003
+file_005.mcx
+file_006.aae
+file_007.olu
+file_008.blu
+file_009.wnd
+
+files/dir_000/dir_001:
+file_010.ips
+file_011.cwl
+file_012.jrm
+file_013.hfq
+file_014.nce
+
+files/dir_000/dir_002:
+file_015.zqo
+file_016.jap
+file_017.peh
+file_018.ggp
+file_019.lyj
+
+files/dir_000/dir_003:
+file_020.omc
+file_021.ocs
+file_022.zgl
+file_023.tkv
+file_024.hrv
+
+files/dir_004:
+dir_005
+dir_006
+dir_007
+file_025.tkk
+file_026.lkk
+file_027.byz
+file_028.yaj
+file_029.lga
+
+files/dir_004/dir_005:
+file_030.hln
+file_031.ynk
+file_032.fhg
+file_033.bte
+file_034.lys
+
+files/dir_004/dir_006:
+file_035.iuu
+file_036.xxx
+file_037.sgj
+file_038.cky
+file_039.kpl
+
+files/dir_004/dir_007:
+file_040.cdq
+file_041.bze
+file_042.xxu
+file_043.bhu
+file_044.iob
+
+files/dir_008:
+dir_009
+dir_010
+dir_011
+file_045.clf
+file_046.eex
+file_047.fik
+file_048.zhs
+file_049.cxh
+
+files/dir_008/dir_009:
+file_050.vis
+file_051.wtq
+file_052.byp
+file_053.bss
+file_054.teu
+
+files/dir_008/dir_010:
+file_055.nan
+file_056.vww
+file_057.hkn
+file_058.hhb
+file_059.ywx
+
+files/dir_008/dir_011:
+file_060.pgd
+file_061.ioy
+file_062.psb
+file_063.gnb
+file_064.jxj
+[INFO] Logging file contents...
+
+File Contents:
+--------------
+
+files/dir_000/dir_001/file_010.ips = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_001/file_011.cwl = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_001/file_012.jrm = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_001/file_013.hfq = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_001/file_014.nce = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_002/file_015.zqo = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_002/file_016.jap = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_002/file_017.peh = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_002/file_018.ggp = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_002/file_019.lyj = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_003/file_020.omc = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_003/file_021.ocs = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_003/file_022.zgl = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_003/file_023.tkv = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/dir_003/file_024.hrv = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/file_005.mcx = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/file_006.aae = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/file_007.olu = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/file_008.blu = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_000/file_009.wnd = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_005/file_030.hln = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_005/file_031.ynk = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_005/file_032.fhg = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_005/file_033.bte = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_005/file_034.lys = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_006/file_035.iuu = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_006/file_036.xxx = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_006/file_037.sgj = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_006/file_038.cky = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_006/file_039.kpl = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_007/file_040.cdq = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_007/file_041.bze = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_007/file_042.xxu = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_007/file_043.bhu = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/dir_007/file_044.iob = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/file_025.tkk = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/file_026.lkk = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/file_027.byz = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/file_028.yaj = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_004/file_029.lga = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_009/file_050.vis = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_009/file_051.wtq = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_009/file_052.byp = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_009/file_053.bss = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_009/file_054.teu = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_010/file_055.nan = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_010/file_056.vww = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_010/file_057.hkn = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_010/file_058.hhb = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_010/file_059.ywx = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_011/file_060.pgd = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_011/file_061.ioy = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_011/file_062.psb = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/dir_011/file_063.gnb = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_064.jxj
+]
+
+files/dir_008/dir_011/file_064.jxj = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+]
+
+files/dir_008/file_045.clf = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/file_046.eex = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/file_047.fik = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/file_048.zhs = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/dir_008/file_049.cxh = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/file_000.buy = [
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/file_001.mdc = [
+  file_000.buy
+  file_002.skd
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/file_002.skd = [
+  file_000.buy
+  file_001.mdc
+  file_003.per
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/file_003.per = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_004.ueg
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+
+files/file_004.ueg = [
+  file_000.buy
+  file_001.mdc
+  file_002.skd
+  file_003.per
+  file_005.mcx
+  file_006.aae
+  file_007.olu
+  file_008.blu
+  file_009.wnd
+  file_010.ips
+  file_011.cwl
+  file_012.jrm
+  file_013.hfq
+  file_014.nce
+  file_015.zqo
+  file_016.jap
+  file_017.peh
+  file_018.ggp
+  file_019.lyj
+  file_020.omc
+  file_021.ocs
+  file_022.zgl
+  file_023.tkv
+  file_024.hrv
+  file_025.tkk
+  file_026.lkk
+  file_027.byz
+  file_028.yaj
+  file_029.lga
+  file_030.hln
+  file_031.ynk
+  file_032.fhg
+  file_033.bte
+  file_034.lys
+  file_035.iuu
+  file_036.xxx
+  file_037.sgj
+  file_038.cky
+  file_039.kpl
+  file_040.cdq
+  file_041.bze
+  file_042.xxu
+  file_043.bhu
+  file_044.iob
+  file_045.clf
+  file_046.eex
+  file_047.fik
+  file_048.zhs
+  file_049.cxh
+  file_050.vis
+  file_051.wtq
+  file_052.byp
+  file_053.bss
+  file_054.teu
+  file_055.nan
+  file_056.vww
+  file_057.hkn
+  file_058.hhb
+  file_059.ywx
+  file_060.pgd
+  file_061.ioy
+  file_062.psb
+  file_063.gnb
+  file_064.jxj
+]
+[PASS] File structure and contents logged
+
++ Test 1: Directory Existence
+[TEST] Checking if ./files/ directory exists
+[PASS] Directory ./files/ exists
+
++ Test 2: File Naming Convention
+[TEST] Checking file naming pattern: file_XXX.EXT
+[INFO] Found 65 files
+[PASS] All files follow naming convention file_XXX.EXT
+
++ Test 3: File Uniqueness
+[TEST] Checking that all file numbers are unique
+[PASS] All 65 file numbers are unique
+
++ Test 4: Directory Naming Convention
+[TEST] Checking directory naming pattern: dir_XXX
+[INFO] Found 12 subdirectories
+[PASS] All directories follow naming convention dir_XXX
+
++ Test 5: Directory Uniqueness
+[TEST] Checking that all directory numbers are unique
+[PASS] All 12 directory numbers are unique
+
++ Test 6: Maximum Depth Constraint
+[TEST] Checking that directory depth does not exceed MAX_DEPTH=3
+[PASS] All directories respect MAX_DEPTH=3 (max found: 2)
+
++ Test 7: Files Per Directory Constraint
+[TEST] Checking that each directory has 1-5 files
+[PASS] All directories have valid file counts (1-5)
+
++ Test 8: Subdirectories Per Directory Constraint
+[TEST] Checking that each directory has 0-3 subdirectories
+[PASS] All directories have valid subdirectory counts (0-3)
+
++ Test 9: Link Structure Validation
+[TEST] Validating link structure for type: full
+[INFO] Checking FULL structure: each file should link to all other files
+[PASS] All files link to all other files (full structure)
+
++ Test 10: Self-Link Check
+[TEST] Checking that no file links to itself
+[PASS] No self-links found
+
++ Test Summary
+Total Tests: 11
+Passed: 11
+Failed: 0
+
+========================================
+ALL TESTS PASSED!
+========================================
+
+========================================
+TEST RUN: Tue Dec 16 07:17:22 PM UTC 2025
+Parameters: MAX_FILES=5, MAX_DIRS=3, MAX_DEPTH=3, DIR_STRUCTURE=random
+========================================
+
++ CS 140 File Generator Tester
+Testing with parameters:
+  MAX_FILES:      5
+  MAX_DIRS:       3
+  MAX_DEPTH:      3
+  DIR_STRUCTURE:  random
+
++ Generated Files Structure and Contents
+[INFO] Logging directory structure...
+
+Directory Tree:
+---------------
+files:
+dir_000
+dir_004
+dir_008
+file_000.lcd
+file_001.xhx
+file_002.fvo
+file_003.zip
+file_004.gnq
+
+files/dir_000:
+dir_001
+dir_002
+dir_003
+file_005.knr
+file_006.lfp
+file_007.lvd
+file_008.toc
+file_009.vev
+
+files/dir_000/dir_001:
+file_010.oeg
+file_011.wta
+file_012.jgz
+file_013.akd
+file_014.idx
+
+files/dir_000/dir_002:
+file_015.gbw
+file_016.fir
+file_017.xzh
+file_018.rix
+file_019.maz
+
+files/dir_000/dir_003:
+file_020.riv
+file_021.rlg
+file_022.pmn
+file_023.ymw
+file_024.isn
+
+files/dir_004:
+dir_005
+dir_006
+dir_007
+file_025.fju
+file_026.fyj
+file_027.jte
+file_028.qco
+file_029.jqy
+
+files/dir_004/dir_005:
+file_030.hyg
+file_031.bbq
+file_032.quj
+file_033.yqr
+file_034.tbi
+
+files/dir_004/dir_006:
+file_035.ndm
+file_036.pdj
+file_037.bph
+file_038.gxi
+file_039.ldt
+
+files/dir_004/dir_007:
+file_040.opj
+file_041.olk
+file_042.bba
+file_043.udl
+file_044.tpn
+
+files/dir_008:
+dir_009
+dir_010
+dir_011
+file_045.pwb
+file_046.wsf
+file_047.zlk
+file_048.wlz
+file_049.hwq
+
+files/dir_008/dir_009:
+file_050.wvo
+file_051.lls
+file_052.kav
+file_053.mlu
+file_054.umx
+
+files/dir_008/dir_010:
+file_055.ewv
+file_056.iai
+file_057.tgr
+file_058.ris
+file_059.pbk
+
+files/dir_008/dir_011:
+file_060.mgb
+file_061.aur
+file_062.hqt
+file_063.nvj
+file_064.sap
+[INFO] Logging file contents...
+
+File Contents:
+--------------
+
+files/dir_000/dir_001/file_010.oeg = [
+  file_022.pmn
+  file_062.hqt
+  file_045.pwb
+  file_022.pmn
+  file_007.lvd
+  file_039.ldt
+  file_058.ris
+  file_015.gbw
+  file_058.ris
+  file_059.pbk
+  file_045.pwb
+  file_041.olk
+  file_013.akd
+  file_009.vev
+  file_016.fir
+  file_042.bba
+  file_002.fvo
+  file_008.toc
+  file_005.knr
+  file_000.lcd
+  file_038.gxi
+  file_009.vev
+  file_062.hqt
+  file_030.hyg
+  file_018.rix
+  file_055.ewv
+  file_044.tpn
+  file_001.xhx
+  file_005.knr
+  file_042.bba
+  file_046.wsf
+  file_056.iai
+  file_055.ewv
+  file_064.sap
+  file_009.vev
+  file_007.lvd
+  file_042.bba
+  file_017.xzh
+  file_009.vev
+  file_019.maz
+  file_036.pdj
+  file_041.olk
+  file_002.fvo
+]
+
+files/dir_000/dir_001/file_011.wta = [
+  file_029.jqy
+  file_036.pdj
+  file_060.mgb
+  file_004.gnq
+  file_034.tbi
+  file_061.aur
+  file_060.mgb
+  file_045.pwb
+  file_052.kav
+  file_004.gnq
+  file_017.xzh
+  file_008.toc
+  file_016.fir
+  file_058.ris
+  file_013.akd
+  file_057.tgr
+  file_053.mlu
+  file_053.mlu
+  file_027.jte
+  file_003.zip
+  file_051.lls
+  file_050.wvo
+  file_053.mlu
+  file_034.tbi
+  file_015.gbw
+  file_025.fju
+  file_062.hqt
+  file_017.xzh
+  file_025.fju
+  file_022.pmn
+  file_019.maz
+  file_055.ewv
+  file_010.oeg
+  file_043.udl
+  file_030.hyg
+  file_046.wsf
+  file_010.oeg
+  file_053.mlu
+  file_048.wlz
+  file_034.tbi
+  file_049.hwq
+  file_038.gxi
+  file_014.idx
+  file_040.opj
+  file_048.wlz
+  file_028.qco
+  file_060.mgb
+  file_044.tpn
+  file_026.fyj
+  file_042.bba
+  file_036.pdj
+  file_012.jgz
+  file_051.lls
+  file_054.umx
+]
+
+files/dir_000/dir_001/file_012.jgz = [
+  file_043.udl
+  file_003.zip
+  file_016.fir
+  file_050.wvo
+  file_033.yqr
+  file_006.lfp
+  file_031.bbq
+  file_011.wta
+  file_061.aur
+  file_054.umx
+  file_052.kav
+  file_008.toc
+  file_024.isn
+  file_003.zip
+  file_043.udl
+  file_045.pwb
+  file_000.lcd
+  file_033.yqr
+  file_050.wvo
+  file_035.ndm
+  file_050.wvo
+  file_038.gxi
+  file_043.udl
+  file_026.fyj
+  file_035.ndm
+  file_054.umx
+  file_029.jqy
+  file_037.bph
+  file_021.rlg
+  file_053.mlu
+  file_034.tbi
+  file_038.gxi
+  file_028.qco
+  file_052.kav
+  file_021.rlg
+  file_016.fir
+  file_038.gxi
+  file_053.mlu
+  file_041.olk
+  file_034.tbi
+  file_008.toc
+  file_053.mlu
+  file_057.tgr
+  file_005.knr
+  file_038.gxi
+  file_026.fyj
+  file_045.pwb
+  file_062.hqt
+  file_022.pmn
+  file_028.qco
+  file_049.hwq
+  file_015.gbw
+]
+
+files/dir_000/dir_001/file_013.akd = [
+  file_059.pbk
+  file_032.quj
+  file_040.opj
+  file_063.nvj
+  file_038.gxi
+  file_058.ris
+  file_033.yqr
+  file_036.pdj
+  file_027.jte
+  file_058.ris
+  file_058.ris
+  file_061.aur
+  file_055.ewv
+  file_023.ymw
+  file_020.riv
+  file_004.gnq
+  file_057.tgr
+  file_062.hqt
+  file_010.oeg
+  file_033.yqr
+  file_036.pdj
+  file_060.mgb
+  file_049.hwq
+  file_047.zlk
+  file_049.hwq
+  file_026.fyj
+  file_030.hyg
+  file_041.olk
+  file_060.mgb
+  file_052.kav
+  file_038.gxi
+  file_055.ewv
+  file_015.gbw
+  file_035.ndm
+  file_018.rix
+  file_057.tgr
+  file_057.tgr
+  file_038.gxi
+  file_026.fyj
+  file_061.aur
+  file_060.mgb
+  file_001.xhx
+  file_027.jte
+  file_043.udl
+  file_048.wlz
+  file_059.pbk
+  file_062.hqt
+  file_018.rix
+  file_041.olk
+  file_041.olk
+  file_049.hwq
+  file_046.wsf
+  file_024.isn
+  file_060.mgb
+  file_036.pdj
+  file_063.nvj
+  file_015.gbw
+  file_016.fir
+  file_042.bba
+  file_050.wvo
+  file_049.hwq
+  file_032.quj
+  file_036.pdj
+]
+
+files/dir_000/dir_001/file_014.idx = [
+  file_035.ndm
+  file_036.pdj
+  file_041.olk
+  file_015.gbw
+  file_015.gbw
+  file_049.hwq
+  file_043.udl
+  file_051.lls
+  file_002.fvo
+  file_020.riv
+  file_045.pwb
+  file_056.iai
+  file_026.fyj
+  file_035.ndm
+  file_058.ris
+  file_035.ndm
+  file_059.pbk
+  file_004.gnq
+  file_001.xhx
+  file_053.mlu
+  file_026.fyj
+  file_006.lfp
+]
+
+files/dir_000/dir_002/file_015.gbw = [
+  file_025.fju
+  file_034.tbi
+  file_055.ewv
+  file_019.maz
+  file_039.ldt
+  file_037.bph
+  file_048.wlz
+  file_052.kav
+  file_043.udl
+  file_022.pmn
+  file_054.umx
+  file_033.yqr
+  file_018.rix
+  file_012.jgz
+  file_063.nvj
+  file_023.ymw
+  file_016.fir
+  file_010.oeg
+  file_009.vev
+  file_026.fyj
+  file_045.pwb
+  file_052.kav
+  file_033.yqr
+  file_017.xzh
+  file_025.fju
+  file_006.lfp
+  file_056.iai
+  file_022.pmn
+  file_048.wlz
+  file_009.vev
+  file_007.lvd
+  file_063.nvj
+  file_029.jqy
+  file_001.xhx
+  file_034.tbi
+  file_016.fir
+  file_010.oeg
+  file_007.lvd
+  file_017.xzh
+  file_001.xhx
+  file_009.vev
+  file_033.yqr
+  file_033.yqr
+  file_046.wsf
+  file_061.aur
+  file_035.ndm
+  file_009.vev
+  file_024.isn
+  file_059.pbk
+  file_052.kav
+  file_058.ris
+]
+
+files/dir_000/dir_002/file_016.fir = [
+  file_019.maz
+  file_041.olk
+  file_029.jqy
+  file_063.nvj
+  file_002.fvo
+  file_053.mlu
+  file_061.aur
+  file_064.sap
+  file_034.tbi
+  file_020.riv
+  file_039.ldt
+  file_033.yqr
+  file_050.wvo
+  file_013.akd
+  file_039.ldt
+  file_015.gbw
+  file_031.bbq
+  file_015.gbw
+  file_009.vev
+  file_032.quj
+  file_000.lcd
+  file_019.maz
+  file_018.rix
+  file_009.vev
+  file_054.umx
+  file_049.hwq
+  file_040.opj
+  file_006.lfp
+  file_030.hyg
+  file_051.lls
+  file_010.oeg
+  file_018.rix
+  file_008.toc
+]
+
+files/dir_000/dir_002/file_017.xzh = [
+  file_039.ldt
+  file_021.rlg
+  file_002.fvo
+  file_049.hwq
+  file_002.fvo
+  file_054.umx
+  file_044.tpn
+  file_055.ewv
+  file_014.idx
+  file_014.idx
+  file_053.mlu
+  file_010.oeg
+  file_005.knr
+  file_061.aur
+  file_060.mgb
+  file_060.mgb
+  file_041.olk
+  file_034.tbi
+  file_034.tbi
+  file_005.knr
+  file_051.lls
+  file_048.wlz
+  file_025.fju
+  file_013.akd
+  file_027.jte
+  file_000.lcd
+]
+
+files/dir_000/dir_002/file_018.rix = [
+  file_030.hyg
+  file_058.ris
+  file_060.mgb
+  file_048.wlz
+  file_053.mlu
+  file_032.quj
+  file_044.tpn
+  file_053.mlu
+  file_051.lls
+  file_022.pmn
+  file_029.jqy
+  file_042.bba
+  file_050.wvo
+  file_006.lfp
+  file_051.lls
+  file_000.lcd
+  file_031.bbq
+  file_006.lfp
+  file_009.vev
+  file_039.ldt
+  file_014.idx
+  file_031.bbq
+  file_036.pdj
+  file_043.udl
+  file_016.fir
+  file_058.ris
+  file_032.quj
+  file_057.tgr
+  file_004.gnq
+  file_020.riv
+  file_061.aur
+  file_049.hwq
+  file_058.ris
+  file_001.xhx
+  file_062.hqt
+  file_043.udl
+  file_001.xhx
+  file_055.ewv
+  file_059.pbk
+  file_035.ndm
+  file_009.vev
+  file_002.fvo
+  file_023.ymw
+  file_009.vev
+  file_017.xzh
+  file_056.iai
+  file_041.olk
+  file_063.nvj
+  file_029.jqy
+  file_008.toc
+  file_022.pmn
+  file_040.opj
+  file_060.mgb
+  file_052.kav
+  file_026.fyj
+  file_032.quj
+  file_048.wlz
+  file_027.jte
+  file_054.umx
+  file_025.fju
+  file_054.umx
+  file_020.riv
+  file_036.pdj
+]
+
+files/dir_000/dir_002/file_019.maz = [
+  file_022.pmn
+  file_054.umx
+  file_053.mlu
+  file_017.xzh
+  file_051.lls
+  file_013.akd
+]
+
+files/dir_000/dir_003/file_020.riv = [
+  file_033.yqr
+  file_064.sap
+  file_044.tpn
+  file_002.fvo
+  file_046.wsf
+  file_047.zlk
+  file_052.kav
+  file_050.wvo
+  file_003.zip
+  file_036.pdj
+  file_052.kav
+  file_005.knr
+  file_014.idx
+  file_047.zlk
+  file_016.fir
+  file_048.wlz
+  file_038.gxi
+  file_039.ldt
+  file_040.opj
+  file_021.rlg
+  file_059.pbk
+  file_024.isn
+  file_006.lfp
+  file_043.udl
+  file_035.ndm
+  file_064.sap
+  file_007.lvd
+  file_013.akd
+  file_021.rlg
+  file_029.jqy
+  file_056.iai
+  file_027.jte
+  file_040.opj
+  file_001.xhx
+  file_003.zip
+  file_027.jte
+  file_017.xzh
+  file_034.tbi
+  file_017.xzh
+  file_013.akd
+  file_052.kav
+  file_049.hwq
+  file_002.fvo
+  file_039.ldt
+  file_010.oeg
+  file_060.mgb
+  file_001.xhx
+  file_038.gxi
+]
+
+files/dir_000/dir_003/file_021.rlg = [
+  file_017.xzh
+  file_011.wta
+  file_057.tgr
+  file_022.pmn
+  file_008.toc
+  file_033.yqr
+  file_010.oeg
+  file_043.udl
+  file_042.bba
+  file_032.quj
+  file_056.iai
+  file_032.quj
+  file_006.lfp
+  file_043.udl
+  file_052.kav
+  file_011.wta
+  file_035.ndm
+  file_012.jgz
+  file_048.wlz
+  file_023.ymw
+  file_055.ewv
+  file_022.pmn
+  file_038.gxi
+  file_005.knr
+  file_023.ymw
+  file_006.lfp
+  file_019.maz
+  file_016.fir
+  file_056.iai
+  file_042.bba
+  file_016.fir
+  file_009.vev
+  file_032.quj
+  file_036.pdj
+  file_039.ldt
+  file_048.wlz
+  file_032.quj
+  file_042.bba
+  file_049.hwq
+  file_059.pbk
+  file_000.lcd
+  file_006.lfp
+  file_002.fvo
+  file_004.gnq
+  file_008.toc
+  file_054.umx
+  file_013.akd
+  file_049.hwq
+  file_011.wta
+]
+
+files/dir_000/dir_003/file_022.pmn = [
+  file_055.ewv
+  file_008.toc
+  file_061.aur
+  file_003.zip
+  file_016.fir
+  file_056.iai
+  file_025.fju
+  file_034.tbi
+  file_040.opj
+  file_011.wta
+  file_035.ndm
+  file_049.hwq
+  file_043.udl
+  file_055.ewv
+  file_027.jte
+  file_049.hwq
+  file_031.bbq
+  file_013.akd
+  file_006.lfp
+  file_007.lvd
+  file_057.tgr
+  file_028.qco
+  file_009.vev
+  file_062.hqt
+  file_027.jte
+  file_040.opj
+  file_057.tgr
+  file_015.gbw
+  file_025.fju
+  file_036.pdj
+  file_059.pbk
+  file_040.opj
+  file_028.qco
+  file_031.bbq
+  file_057.tgr
+  file_003.zip
+  file_061.aur
+  file_058.ris
+  file_028.qco
+  file_010.oeg
+  file_028.qco
+  file_038.gxi
+  file_010.oeg
+  file_040.opj
+]
+
+files/dir_000/dir_003/file_023.ymw = [
+  file_044.tpn
+  file_022.pmn
+  file_012.jgz
+  file_040.opj
+  file_062.hqt
+  file_007.lvd
+  file_011.wta
+  file_054.umx
+  file_034.tbi
+  file_038.gxi
+  file_049.hwq
+  file_044.tpn
+  file_040.opj
+  file_026.fyj
+  file_043.udl
+  file_044.tpn
+  file_052.kav
+  file_034.tbi
+  file_038.gxi
+  file_011.wta
+  file_022.pmn
+  file_028.qco
+  file_045.pwb
+  file_061.aur
+  file_052.kav
+  file_053.mlu
+  file_036.pdj
+]
+
+files/dir_000/dir_003/file_024.isn = [
+  file_053.mlu
+  file_031.bbq
+  file_040.opj
+  file_054.umx
+  file_050.wvo
+  file_022.pmn
+  file_002.fvo
+  file_032.quj
+  file_039.ldt
+  file_000.lcd
+]
+
+files/dir_000/file_005.knr = [
+  file_026.fyj
+  file_006.lfp
+  file_002.fvo
+  file_046.wsf
+  file_057.tgr
+  file_016.fir
+  file_034.tbi
+  file_012.jgz
+  file_057.tgr
+  file_002.fvo
+  file_046.wsf
+  file_040.opj
+  file_054.umx
+  file_053.mlu
+  file_050.wvo
+  file_004.gnq
+  file_057.tgr
+  file_043.udl
+  file_044.tpn
+  file_034.tbi
+  file_034.tbi
+  file_026.fyj
+  file_036.pdj
+  file_006.lfp
+  file_022.pmn
+  file_006.lfp
+  file_039.ldt
+  file_058.ris
+  file_060.mgb
+  file_041.olk
+  file_013.akd
+  file_015.gbw
+  file_058.ris
+  file_029.jqy
+  file_040.opj
+]
+
+files/dir_000/file_006.lfp = [
+  file_022.pmn
+  file_056.iai
+  file_060.mgb
+  file_054.umx
+  file_064.sap
+  file_057.tgr
+  file_021.rlg
+  file_035.ndm
+  file_062.hqt
+  file_063.nvj
+  file_045.pwb
+  file_023.ymw
+  file_024.isn
+  file_029.jqy
+  file_052.kav
+  file_004.gnq
+  file_028.qco
+  file_054.umx
+  file_022.pmn
+  file_021.rlg
+  file_052.kav
+  file_060.mgb
+  file_056.iai
+  file_038.gxi
+  file_000.lcd
+  file_008.toc
+  file_027.jte
+  file_039.ldt
+  file_029.jqy
+  file_039.ldt
+  file_027.jte
+  file_010.oeg
+  file_060.mgb
+  file_017.xzh
+  file_049.hwq
+  file_052.kav
+  file_064.sap
+  file_039.ldt
+  file_052.kav
+  file_003.zip
+  file_023.ymw
+  file_017.xzh
+  file_000.lcd
+  file_008.toc
+  file_037.bph
+  file_055.ewv
+  file_028.qco
+]
+
+files/dir_000/file_007.lvd = [
+  file_017.xzh
+  file_033.yqr
+  file_025.fju
+  file_040.opj
+  file_064.sap
+  file_001.xhx
+  file_049.hwq
+  file_003.zip
+  file_050.wvo
+  file_058.ris
+  file_010.oeg
+  file_057.tgr
+  file_062.hqt
+  file_022.pmn
+  file_003.zip
+  file_063.nvj
+  file_003.zip
+  file_012.jgz
+  file_020.riv
+  file_001.xhx
+  file_015.gbw
+  file_005.knr
+  file_000.lcd
+  file_051.lls
+  file_010.oeg
+  file_006.lfp
+  file_045.pwb
+  file_042.bba
+  file_010.oeg
+  file_011.wta
+  file_054.umx
+  file_036.pdj
+  file_063.nvj
+]
+
+files/dir_000/file_008.toc = [
+  file_034.tbi
+  file_038.gxi
+  file_045.pwb
+  file_024.isn
+  file_005.knr
+  file_000.lcd
+  file_061.aur
+  file_047.zlk
+  file_059.pbk
+  file_053.mlu
+  file_005.knr
+  file_061.aur
+  file_060.mgb
+  file_001.xhx
+  file_042.bba
+  file_004.gnq
+  file_022.pmn
+  file_049.hwq
+  file_030.hyg
+  file_051.lls
+  file_016.fir
+  file_013.akd
+  file_006.lfp
+]
+
+files/dir_000/file_009.vev = [
+  file_063.nvj
+  file_027.jte
+  file_046.wsf
+  file_006.lfp
+  file_014.idx
+  file_022.pmn
+  file_022.pmn
+  file_013.akd
+  file_000.lcd
+]
+
+files/dir_004/dir_005/file_030.hyg = [
+  file_060.mgb
+  file_064.sap
+  file_037.bph
+  file_036.pdj
+  file_011.wta
+  file_041.olk
+  file_036.pdj
+  file_043.udl
+  file_035.ndm
+  file_042.bba
+  file_029.jqy
+  file_026.fyj
+  file_048.wlz
+  file_018.rix
+  file_060.mgb
+  file_017.xzh
+  file_033.yqr
+  file_006.lfp
+  file_064.sap
+  file_023.ymw
+  file_049.hwq
+  file_016.fir
+]
+
+files/dir_004/dir_005/file_031.bbq = [
+  file_053.mlu
+  file_034.tbi
+  file_019.maz
+  file_001.xhx
+  file_064.sap
+  file_020.riv
+  file_022.pmn
+  file_005.knr
+  file_034.tbi
+  file_037.bph
+  file_036.pdj
+  file_002.fvo
+  file_014.idx
+  file_022.pmn
+  file_006.lfp
+  file_062.hqt
+  file_010.oeg
+  file_023.ymw
+  file_056.iai
+  file_019.maz
+  file_002.fvo
+  file_021.rlg
+  file_030.hyg
+  file_043.udl
+  file_059.pbk
+  file_017.xzh
+  file_012.jgz
+  file_026.fyj
+  file_027.jte
+  file_062.hqt
+  file_058.ris
+  file_037.bph
+  file_052.kav
+  file_053.mlu
+  file_004.gnq
+  file_008.toc
+  file_043.udl
+  file_001.xhx
+  file_030.hyg
+  file_033.yqr
+]
+
+files/dir_004/dir_005/file_032.quj = [
+  file_002.fvo
+  file_044.tpn
+  file_034.tbi
+  file_020.riv
+  file_008.toc
+  file_058.ris
+  file_011.wta
+  file_038.gxi
+  file_006.lfp
+  file_021.rlg
+  file_003.zip
+  file_042.bba
+  file_010.oeg
+  file_037.bph
+  file_003.zip
+  file_036.pdj
+  file_028.qco
+  file_062.hqt
+  file_061.aur
+  file_035.ndm
+  file_046.wsf
+  file_050.wvo
+  file_035.ndm
+  file_021.rlg
+  file_044.tpn
+  file_055.ewv
+  file_000.lcd
+  file_055.ewv
+  file_039.ldt
+]
+
+files/dir_004/dir_005/file_033.yqr = [
+  file_040.opj
+  file_039.ldt
+  file_022.pmn
+  file_053.mlu
+  file_029.jqy
+  file_002.fvo
+  file_037.bph
+  file_038.gxi
+  file_020.riv
+  file_062.hqt
+  file_025.fju
+  file_022.pmn
+  file_026.fyj
+  file_046.wsf
+  file_046.wsf
+  file_036.pdj
+  file_032.quj
+  file_003.zip
+  file_025.fju
+  file_002.fvo
+  file_046.wsf
+  file_015.gbw
+  file_053.mlu
+  file_001.xhx
+  file_008.toc
+  file_032.quj
+  file_054.umx
+  file_032.quj
+  file_047.zlk
+]
+
+files/dir_004/dir_005/file_034.tbi = [
+  file_041.olk
+  file_008.toc
+  file_009.vev
+  file_040.opj
+  file_042.bba
+  file_033.yqr
+  file_004.gnq
+  file_044.tpn
+  file_004.gnq
+  file_058.ris
+  file_039.ldt
+  file_063.nvj
+  file_008.toc
+  file_026.fyj
+  file_026.fyj
+  file_029.jqy
+  file_008.toc
+  file_058.ris
+  file_024.isn
+  file_023.ymw
+  file_040.opj
+  file_019.maz
+  file_041.olk
+  file_064.sap
+  file_045.pwb
+  file_058.ris
+  file_015.gbw
+  file_048.wlz
+  file_017.xzh
+  file_028.qco
+  file_030.hyg
+  file_027.jte
+  file_021.rlg
+  file_044.tpn
+  file_050.wvo
+  file_014.idx
+  file_052.kav
+  file_044.tpn
+  file_030.hyg
+  file_011.wta
+  file_063.nvj
+  file_061.aur
+  file_022.pmn
+  file_062.hqt
+  file_020.riv
+  file_037.bph
+  file_047.zlk
+  file_015.gbw
+  file_061.aur
+  file_036.pdj
+  file_000.lcd
+]
+
+files/dir_004/dir_006/file_035.ndm = [
+  file_022.pmn
+  file_046.wsf
+  file_052.kav
+  file_006.lfp
+  file_053.mlu
+  file_027.jte
+  file_048.wlz
+  file_061.aur
+  file_000.lcd
+  file_038.gxi
+  file_007.lvd
+  file_038.gxi
+  file_025.fju
+  file_033.yqr
+  file_063.nvj
+  file_015.gbw
+  file_030.hyg
+  file_016.fir
+  file_057.tgr
+  file_038.gxi
+  file_012.jgz
+  file_053.mlu
+  file_050.wvo
+  file_007.lvd
+  file_045.pwb
+  file_006.lfp
+  file_044.tpn
+  file_022.pmn
+  file_003.zip
+  file_047.zlk
+  file_001.xhx
+  file_006.lfp
+  file_007.lvd
+  file_011.wta
+  file_032.quj
+  file_011.wta
+]
+
+files/dir_004/dir_006/file_036.pdj = [
+  file_023.ymw
+  file_039.ldt
+  file_024.isn
+  file_025.fju
+  file_013.akd
+  file_032.quj
+  file_046.wsf
+  file_018.rix
+  file_018.rix
+  file_051.lls
+  file_027.jte
+  file_011.wta
+  file_025.fju
+  file_031.bbq
+  file_028.qco
+  file_045.pwb
+  file_002.fvo
+  file_003.zip
+  file_006.lfp
+  file_017.xzh
+  file_050.wvo
+  file_037.bph
+  file_062.hqt
+  file_058.ris
+  file_046.wsf
+  file_020.riv
+  file_032.quj
+  file_030.hyg
+  file_038.gxi
+  file_019.maz
+  file_016.fir
+  file_039.ldt
+  file_022.pmn
+  file_024.isn
+  file_056.iai
+  file_001.xhx
+  file_050.wvo
+]
+
+files/dir_004/dir_006/file_037.bph = [
+  file_021.rlg
+]
+
+files/dir_004/dir_006/file_038.gxi = [
+  file_057.tgr
+  file_009.vev
+  file_008.toc
+  file_051.lls
+  file_055.ewv
+  file_040.opj
+  file_047.zlk
+  file_048.wlz
+  file_064.sap
+  file_027.jte
+  file_005.knr
+  file_009.vev
+  file_041.olk
+  file_026.fyj
+  file_040.opj
+  file_050.wvo
+  file_022.pmn
+  file_059.pbk
+  file_024.isn
+  file_005.knr
+  file_063.nvj
+  file_034.tbi
+]
+
+files/dir_004/dir_006/file_039.ldt = [
+  file_022.pmn
+  file_009.vev
+  file_029.jqy
+  file_036.pdj
+  file_015.gbw
+  file_033.yqr
+  file_058.ris
+  file_018.rix
+  file_037.bph
+  file_015.gbw
+  file_019.maz
+  file_032.quj
+  file_003.zip
+  file_009.vev
+]
+
+files/dir_004/dir_007/file_040.opj = [
+  file_030.hyg
+]
+
+files/dir_004/dir_007/file_041.olk = [
+  file_012.jgz
+  file_042.bba
+  file_061.aur
+  file_011.wta
+  file_035.ndm
+  file_021.rlg
+  file_000.lcd
+  file_022.pmn
+  file_060.mgb
+  file_024.isn
+  file_019.maz
+  file_053.mlu
+  file_001.xhx
+  file_035.ndm
+  file_025.fju
+  file_035.ndm
+  file_042.bba
+  file_061.aur
+  file_003.zip
+  file_044.tpn
+  file_025.fju
+]
+
+files/dir_004/dir_007/file_042.bba = [
+  file_020.riv
+  file_055.ewv
+  file_038.gxi
+  file_059.pbk
+  file_013.akd
+  file_051.lls
+  file_062.hqt
+  file_009.vev
+  file_030.hyg
+  file_017.xzh
+  file_026.fyj
+  file_046.wsf
+  file_052.kav
+  file_056.iai
+  file_018.rix
+  file_015.gbw
+  file_012.jgz
+  file_037.bph
+  file_048.wlz
+  file_059.pbk
+  file_060.mgb
+  file_034.tbi
+  file_041.olk
+  file_032.quj
+  file_033.yqr
+  file_019.maz
+  file_045.pwb
+  file_041.olk
+  file_004.gnq
+  file_000.lcd
+  file_004.gnq
+  file_003.zip
+  file_062.hqt
+  file_048.wlz
+  file_035.ndm
+  file_007.lvd
+  file_001.xhx
+  file_031.bbq
+  file_038.gxi
+  file_036.pdj
+  file_026.fyj
+  file_052.kav
+  file_028.qco
+  file_046.wsf
+  file_059.pbk
+  file_028.qco
+]
+
+files/dir_004/dir_007/file_043.udl = [
+  file_003.zip
+  file_006.lfp
+  file_004.gnq
+  file_020.riv
+  file_003.zip
+  file_004.gnq
+  file_015.gbw
+  file_010.oeg
+  file_048.wlz
+  file_000.lcd
+  file_062.hqt
+  file_002.fvo
+  file_038.gxi
+  file_062.hqt
+  file_021.rlg
+  file_058.ris
+  file_058.ris
+  file_051.lls
+  file_014.idx
+  file_004.gnq
+  file_022.pmn
+  file_002.fvo
+  file_033.yqr
+  file_028.qco
+  file_041.olk
+  file_044.tpn
+  file_028.qco
+  file_007.lvd
+  file_034.tbi
+  file_026.fyj
+  file_004.gnq
+]
+
+files/dir_004/dir_007/file_044.tpn = [
+  file_011.wta
+  file_031.bbq
+  file_029.jqy
+  file_055.ewv
+  file_024.isn
+  file_063.nvj
+  file_019.maz
+  file_045.pwb
+  file_053.mlu
+  file_032.quj
+  file_008.toc
+  file_008.toc
+  file_045.pwb
+  file_053.mlu
+  file_050.wvo
+  file_038.gxi
+  file_038.gxi
+  file_058.ris
+  file_020.riv
+  file_009.vev
+  file_013.akd
+  file_053.mlu
+  file_038.gxi
+  file_037.bph
+  file_051.lls
+  file_021.rlg
+  file_018.rix
+  file_029.jqy
+  file_043.udl
+  file_052.kav
+  file_009.vev
+  file_020.riv
+  file_016.fir
+  file_050.wvo
+  file_032.quj
+  file_003.zip
+]
+
+files/dir_004/file_025.fju = [
+  file_006.lfp
+  file_002.fvo
+  file_015.gbw
+  file_018.rix
+  file_031.bbq
+  file_048.wlz
+  file_012.jgz
+  file_014.idx
+  file_063.nvj
+  file_052.kav
+  file_027.jte
+  file_059.pbk
+  file_033.yqr
+  file_019.maz
+  file_002.fvo
+  file_041.olk
+  file_015.gbw
+  file_052.kav
+  file_053.mlu
+  file_009.vev
+  file_052.kav
+  file_060.mgb
+  file_026.fyj
+  file_036.pdj
+  file_054.umx
+  file_013.akd
+  file_016.fir
+  file_020.riv
+  file_005.knr
+  file_023.ymw
+  file_063.nvj
+  file_012.jgz
+  file_023.ymw
+  file_008.toc
+  file_026.fyj
+  file_002.fvo
+  file_002.fvo
+  file_016.fir
+  file_000.lcd
+  file_027.jte
+  file_022.pmn
+  file_002.fvo
+  file_061.aur
+  file_027.jte
+  file_015.gbw
+  file_029.jqy
+]
+
+files/dir_004/file_026.fyj = [
+  file_050.wvo
+  file_055.ewv
+  file_000.lcd
+  file_009.vev
+  file_007.lvd
+  file_061.aur
+  file_056.iai
+  file_045.pwb
+  file_003.zip
+  file_061.aur
+  file_053.mlu
+  file_062.hqt
+  file_012.jgz
+  file_006.lfp
+  file_018.rix
+  file_061.aur
+  file_037.bph
+  file_046.wsf
+  file_043.udl
+  file_039.ldt
+  file_005.knr
+  file_054.umx
+  file_027.jte
+  file_040.opj
+  file_014.idx
+  file_023.ymw
+  file_049.hwq
+  file_047.zlk
+  file_021.rlg
+  file_012.jgz
+  file_000.lcd
+  file_004.gnq
+  file_006.lfp
+  file_003.zip
+  file_006.lfp
+  file_031.bbq
+  file_007.lvd
+  file_050.wvo
+  file_011.wta
+  file_045.pwb
+  file_021.rlg
+]
+
+files/dir_004/file_027.jte = [
+  file_046.wsf
+  file_058.ris
+  file_010.oeg
+  file_012.jgz
+  file_002.fvo
+  file_060.mgb
+  file_057.tgr
+  file_012.jgz
+  file_007.lvd
+  file_038.gxi
+  file_034.tbi
+  file_004.gnq
+  file_038.gxi
+  file_031.bbq
+  file_017.xzh
+  file_050.wvo
+  file_054.umx
+  file_007.lvd
+  file_034.tbi
+  file_006.lfp
+  file_002.fvo
+  file_031.bbq
+  file_047.zlk
+  file_029.jqy
+  file_016.fir
+  file_024.isn
+  file_000.lcd
+  file_039.ldt
+  file_042.bba
+  file_007.lvd
+  file_006.lfp
+  file_011.wta
+  file_047.zlk
+  file_026.fyj
+  file_032.quj
+  file_009.vev
+  file_005.knr
+  file_040.opj
+  file_011.wta
+  file_047.zlk
+  file_010.oeg
+  file_032.quj
+  file_037.bph
+  file_036.pdj
+]
+
+files/dir_004/file_028.qco = [
+  file_002.fvo
+  file_053.mlu
+  file_063.nvj
+  file_016.fir
+  file_050.wvo
+  file_020.riv
+  file_059.pbk
+  file_063.nvj
+  file_022.pmn
+  file_013.akd
+  file_007.lvd
+  file_041.olk
+  file_029.jqy
+  file_015.gbw
+  file_022.pmn
+  file_001.xhx
+  file_025.fju
+  file_059.pbk
+  file_026.fyj
+  file_022.pmn
+  file_059.pbk
+]
+
+files/dir_004/file_029.jqy = [
+  file_002.fvo
+  file_055.ewv
+  file_034.tbi
+  file_018.rix
+]
+
+files/dir_008/dir_009/file_050.wvo = [
+  file_022.pmn
+  file_023.ymw
+  file_051.lls
+  file_042.bba
+  file_054.umx
+  file_039.ldt
+  file_005.knr
+  file_003.zip
+  file_055.ewv
+  file_010.oeg
+  file_052.kav
+  file_015.gbw
+  file_002.fvo
+  file_011.wta
+  file_047.zlk
+  file_030.hyg
+  file_056.iai
+  file_002.fvo
+  file_027.jte
+  file_041.olk
+  file_040.opj
+  file_064.sap
+  file_005.knr
+  file_024.isn
+  file_036.pdj
+]
+
+files/dir_008/dir_009/file_051.lls = [
+  file_032.quj
+  file_040.opj
+  file_044.tpn
+  file_047.zlk
+  file_040.opj
+  file_045.pwb
+  file_018.rix
+  file_019.maz
+  file_024.isn
+  file_032.quj
+  file_007.lvd
+  file_003.zip
+  file_003.zip
+  file_002.fvo
+  file_063.nvj
+  file_038.gxi
+  file_014.idx
+  file_008.toc
+  file_060.mgb
+  file_063.nvj
+  file_063.nvj
+  file_046.wsf
+  file_022.pmn
+  file_001.xhx
+  file_053.mlu
+  file_041.olk
+  file_054.umx
+  file_033.yqr
+  file_056.iai
+  file_001.xhx
+  file_007.lvd
+  file_048.wlz
+  file_018.rix
+  file_061.aur
+  file_015.gbw
+  file_009.vev
+  file_027.jte
+  file_035.ndm
+  file_034.tbi
+  file_015.gbw
+  file_054.umx
+  file_014.idx
+  file_031.bbq
+  file_030.hyg
+  file_006.lfp
+  file_015.gbw
+  file_034.tbi
+  file_052.kav
+  file_014.idx
+  file_055.ewv
+  file_026.fyj
+  file_019.maz
+  file_024.isn
+  file_032.quj
+  file_032.quj
+  file_006.lfp
+  file_018.rix
+  file_038.gxi
+  file_000.lcd
+  file_029.jqy
+  file_061.aur
+]
+
+files/dir_008/dir_009/file_052.kav = [
+  file_062.hqt
+  file_043.udl
+  file_046.wsf
+  file_032.quj
+  file_061.aur
+  file_000.lcd
+  file_033.yqr
+  file_061.aur
+  file_061.aur
+  file_045.pwb
+  file_061.aur
+  file_048.wlz
+  file_062.hqt
+  file_003.zip
+  file_040.opj
+  file_006.lfp
+  file_043.udl
+  file_039.ldt
+  file_001.xhx
+  file_017.xzh
+  file_045.pwb
+  file_019.maz
+  file_048.wlz
+  file_057.tgr
+  file_008.toc
+  file_001.xhx
+  file_044.tpn
+  file_019.maz
+  file_054.umx
+  file_022.pmn
+  file_061.aur
+  file_019.maz
+  file_013.akd
+  file_061.aur
+  file_036.pdj
+  file_001.xhx
+  file_025.fju
+  file_007.lvd
+  file_004.gnq
+  file_044.tpn
+  file_039.ldt
+  file_007.lvd
+  file_000.lcd
+  file_055.ewv
+  file_064.sap
+  file_005.knr
+  file_011.wta
+  file_030.hyg
+  file_062.hqt
+  file_035.ndm
+  file_010.oeg
+  file_030.hyg
+  file_024.isn
+  file_024.isn
+  file_056.iai
+  file_045.pwb
+  file_030.hyg
+  file_063.nvj
+  file_046.wsf
+  file_007.lvd
+  file_020.riv
+  file_063.nvj
+  file_029.jqy
+  file_034.tbi
+]
+
+files/dir_008/dir_009/file_053.mlu = [
+  file_036.pdj
+  file_004.gnq
+  file_060.mgb
+  file_045.pwb
+  file_063.nvj
+]
+
+files/dir_008/dir_009/file_054.umx = [
+  file_050.wvo
+  file_031.bbq
+  file_013.akd
+  file_037.bph
+  file_006.lfp
+  file_013.akd
+  file_033.yqr
+  file_039.ldt
+  file_011.wta
+  file_064.sap
+  file_004.gnq
+  file_056.iai
+  file_061.aur
+  file_031.bbq
+  file_041.olk
+]
+
+files/dir_008/dir_010/file_055.ewv = [
+  file_018.rix
+  file_016.fir
+  file_006.lfp
+  file_063.nvj
+  file_051.lls
+  file_034.tbi
+  file_025.fju
+  file_031.bbq
+  file_021.rlg
+  file_010.oeg
+  file_005.knr
+  file_052.kav
+  file_058.ris
+  file_028.qco
+  file_063.nvj
+  file_061.aur
+  file_058.ris
+  file_011.wta
+  file_026.fyj
+  file_064.sap
+  file_044.tpn
+  file_026.fyj
+  file_046.wsf
+  file_063.nvj
+  file_025.fju
+]
+
+files/dir_008/dir_010/file_056.iai = [
+  file_031.bbq
+  file_014.idx
+  file_059.pbk
+  file_025.fju
+  file_041.olk
+  file_004.gnq
+  file_042.bba
+  file_026.fyj
+  file_021.rlg
+  file_059.pbk
+  file_008.toc
+  file_026.fyj
+  file_035.ndm
+  file_045.pwb
+  file_029.jqy
+  file_013.akd
+  file_054.umx
+  file_018.rix
+  file_027.jte
+  file_036.pdj
+  file_051.lls
+  file_048.wlz
+  file_039.ldt
+  file_005.knr
+  file_037.bph
+  file_036.pdj
+  file_008.toc
+  file_024.isn
+  file_064.sap
+  file_000.lcd
+  file_023.ymw
+  file_006.lfp
+  file_048.wlz
+  file_061.aur
+  file_051.lls
+  file_031.bbq
+  file_013.akd
+  file_049.hwq
+  file_008.toc
+  file_048.wlz
+  file_006.lfp
+  file_018.rix
+  file_011.wta
+  file_006.lfp
+  file_031.bbq
+  file_004.gnq
+  file_043.udl
+  file_003.zip
+  file_002.fvo
+]
+
+files/dir_008/dir_010/file_057.tgr = [
+  file_054.umx
+  file_052.kav
+  file_042.bba
+  file_048.wlz
+  file_003.zip
+  file_041.olk
+  file_005.knr
+  file_003.zip
+  file_040.opj
+  file_009.vev
+  file_004.gnq
+  file_028.qco
+  file_029.jqy
+  file_028.qco
+  file_026.fyj
+  file_008.toc
+  file_055.ewv
+  file_019.maz
+  file_044.tpn
+  file_063.nvj
+  file_020.riv
+  file_052.kav
+  file_032.quj
+  file_011.wta
+  file_003.zip
+  file_061.aur
+  file_003.zip
+  file_061.aur
+  file_022.pmn
+  file_013.akd
+  file_064.sap
+  file_061.aur
+  file_015.gbw
+  file_012.jgz
+  file_055.ewv
+  file_058.ris
+  file_002.fvo
+  file_002.fvo
+  file_016.fir
+  file_006.lfp
+  file_021.rlg
+  file_027.jte
+  file_053.mlu
+  file_054.umx
+  file_003.zip
+  file_002.fvo
+  file_010.oeg
+  file_009.vev
+  file_061.aur
+  file_029.jqy
+  file_010.oeg
+  file_064.sap
+  file_060.mgb
+  file_055.ewv
+  file_049.hwq
+  file_039.ldt
+  file_003.zip
+  file_047.zlk
+  file_027.jte
+]
+
+files/dir_008/dir_010/file_058.ris = [
+  file_021.rlg
+  file_040.opj
+  file_029.jqy
+  file_056.iai
+  file_001.xhx
+  file_016.fir
+  file_025.fju
+  file_050.wvo
+  file_040.opj
+  file_051.lls
+  file_003.zip
+  file_040.opj
+  file_055.ewv
+  file_021.rlg
+  file_020.riv
+  file_041.olk
+  file_002.fvo
+  file_043.udl
+  file_037.bph
+  file_008.toc
+  file_055.ewv
+  file_034.tbi
+  file_051.lls
+  file_062.hqt
+  file_022.pmn
+  file_024.isn
+  file_040.opj
+  file_010.oeg
+  file_014.idx
+  file_039.ldt
+]
+
+files/dir_008/dir_010/file_059.pbk = [
+  file_013.akd
+  file_032.quj
+  file_055.ewv
+  file_027.jte
+  file_016.fir
+  file_051.lls
+  file_000.lcd
+  file_061.aur
+  file_015.gbw
+  file_034.tbi
+  file_006.lfp
+  file_033.yqr
+  file_030.hyg
+  file_019.maz
+  file_007.lvd
+  file_051.lls
+  file_029.jqy
+  file_015.gbw
+  file_064.sap
+  file_027.jte
+  file_011.wta
+  file_037.bph
+  file_038.gxi
+  file_000.lcd
+  file_053.mlu
+  file_022.pmn
+  file_030.hyg
+]
+
+files/dir_008/dir_011/file_060.mgb = [
+  file_040.opj
+  file_007.lvd
+  file_061.aur
+  file_018.rix
+  file_016.fir
+  file_023.ymw
+  file_053.mlu
+  file_000.lcd
+  file_024.isn
+  file_019.maz
+  file_015.gbw
+  file_021.rlg
+  file_022.pmn
+  file_032.quj
+  file_003.zip
+  file_057.tgr
+  file_026.fyj
+  file_031.bbq
+  file_049.hwq
+  file_029.jqy
+  file_024.isn
+  file_018.rix
+  file_001.xhx
+  file_059.pbk
+  file_029.jqy
+]
+
+files/dir_008/dir_011/file_061.aur = [
+  file_050.wvo
+  file_023.ymw
+  file_024.isn
+  file_005.knr
+  file_004.gnq
+  file_003.zip
+  file_034.tbi
+  file_030.hyg
+  file_048.wlz
+  file_007.lvd
+  file_060.mgb
+  file_056.iai
+  file_031.bbq
+  file_025.fju
+  file_001.xhx
+  file_005.knr
+  file_019.maz
+  file_045.pwb
+  file_039.ldt
+  file_008.toc
+  file_042.bba
+  file_009.vev
+  file_057.tgr
+  file_030.hyg
+  file_023.ymw
+  file_008.toc
+  file_052.kav
+  file_049.hwq
+  file_022.pmn
+  file_029.jqy
+  file_037.bph
+  file_060.mgb
+  file_053.mlu
+  file_017.xzh
+  file_000.lcd
+  file_046.wsf
+  file_031.bbq
+  file_002.fvo
+  file_015.gbw
+  file_004.gnq
+]
+
+files/dir_008/dir_011/file_062.hqt = [
+  file_016.fir
+  file_055.ewv
+  file_038.gxi
+  file_038.gxi
+  file_030.hyg
+  file_031.bbq
+  file_022.pmn
+  file_014.idx
+  file_020.riv
+  file_005.knr
+  file_036.pdj
+  file_057.tgr
+  file_033.yqr
+  file_001.xhx
+  file_018.rix
+  file_021.rlg
+  file_058.ris
+  file_056.iai
+  file_007.lvd
+  file_049.hwq
+  file_024.isn
+  file_040.opj
+  file_033.yqr
+  file_027.jte
+  file_046.wsf
+  file_041.olk
+  file_019.maz
+  file_019.maz
+  file_055.ewv
+  file_000.lcd
+]
+
+files/dir_008/dir_011/file_063.nvj = [
+  file_046.wsf
+  file_003.zip
+  file_022.pmn
+  file_047.zlk
+  file_035.ndm
+  file_051.lls
+  file_009.vev
+  file_064.sap
+  file_036.pdj
+  file_056.iai
+  file_009.vev
+  file_001.xhx
+  file_033.yqr
+  file_008.toc
+  file_000.lcd
+  file_021.rlg
+  file_036.pdj
+  file_002.fvo
+  file_038.gxi
+  file_064.sap
+  file_038.gxi
+  file_033.yqr
+  file_058.ris
+  file_032.quj
+  file_006.lfp
+  file_017.xzh
+  file_059.pbk
+  file_005.knr
+  file_052.kav
+  file_022.pmn
+  file_061.aur
+  file_024.isn
+  file_016.fir
+  file_052.kav
+  file_062.hqt
+  file_027.jte
+  file_022.pmn
+  file_009.vev
+  file_022.pmn
+  file_033.yqr
+  file_045.pwb
+  file_059.pbk
+  file_039.ldt
+  file_017.xzh
+  file_059.pbk
+  file_056.iai
+  file_005.knr
+  file_047.zlk
+  file_044.tpn
+  file_053.mlu
+  file_005.knr
+  file_051.lls
+  file_064.sap
+  file_056.iai
+  file_053.mlu
+  file_057.tgr
+  file_051.lls
+  file_023.ymw
+  file_041.olk
+]
+
+files/dir_008/dir_011/file_064.sap = [
+  file_040.opj
+  file_052.kav
+  file_051.lls
+  file_010.oeg
+  file_022.pmn
+  file_035.ndm
+  file_010.oeg
+  file_001.xhx
+  file_038.gxi
+  file_056.iai
+]
+
+files/dir_008/file_045.pwb = [
+  file_062.hqt
+  file_002.fvo
+  file_055.ewv
+  file_044.tpn
+  file_015.gbw
+  file_028.qco
+  file_038.gxi
+]
+
+files/dir_008/file_046.wsf = [
+  file_000.lcd
+  file_060.mgb
+  file_008.toc
+  file_000.lcd
+  file_040.opj
+  file_024.isn
+  file_035.ndm
+  file_005.knr
+  file_009.vev
+  file_024.isn
+  file_035.ndm
+  file_054.umx
+  file_010.oeg
+]
+
+files/dir_008/file_047.zlk = [
+  file_001.xhx
+  file_055.ewv
+  file_044.tpn
+  file_013.akd
+  file_037.bph
+  file_003.zip
+  file_020.riv
+  file_032.quj
+  file_063.nvj
+  file_005.knr
+  file_005.knr
+  file_064.sap
+  file_003.zip
+  file_014.idx
+  file_061.aur
+  file_054.umx
+  file_006.lfp
+  file_062.hqt
+  file_035.ndm
+  file_029.jqy
+  file_009.vev
+  file_056.iai
+  file_000.lcd
+  file_041.olk
+  file_017.xzh
+  file_055.ewv
+  file_057.tgr
+  file_041.olk
+  file_054.umx
+  file_017.xzh
+  file_015.gbw
+  file_010.oeg
+  file_000.lcd
+  file_056.iai
+  file_039.ldt
+  file_051.lls
+  file_042.bba
+  file_002.fvo
+  file_034.tbi
+  file_025.fju
+  file_035.ndm
+  file_031.bbq
+  file_010.oeg
+  file_053.mlu
+  file_053.mlu
+  file_043.udl
+  file_035.ndm
+  file_027.jte
+  file_034.tbi
+  file_056.iai
+  file_052.kav
+  file_001.xhx
+  file_064.sap
+  file_049.hwq
+  file_005.knr
+  file_064.sap
+  file_053.mlu
+  file_002.fvo
+  file_050.wvo
+  file_028.qco
+  file_034.tbi
+  file_033.yqr
+  file_036.pdj
+]
+
+files/dir_008/file_048.wlz = [
+  file_024.isn
+  file_015.gbw
+  file_000.lcd
+  file_046.wsf
+  file_023.ymw
+  file_016.fir
+  file_002.fvo
+  file_027.jte
+  file_026.fyj
+  file_008.toc
+  file_014.idx
+  file_033.yqr
+  file_026.fyj
+  file_015.gbw
+  file_053.mlu
+  file_024.isn
+  file_031.bbq
+  file_029.jqy
+  file_006.lfp
+  file_023.ymw
+  file_033.yqr
+  file_043.udl
+  file_057.tgr
+  file_007.lvd
+  file_016.fir
+  file_029.jqy
+  file_024.isn
+  file_008.toc
+  file_056.iai
+  file_055.ewv
+  file_018.rix
+  file_052.kav
+  file_003.zip
+  file_061.aur
+  file_037.bph
+]
+
+files/dir_008/file_049.hwq = [
+  file_043.udl
+  file_058.ris
+  file_024.isn
+  file_022.pmn
+  file_003.zip
+  file_059.pbk
+  file_044.tpn
+  file_037.bph
+  file_023.ymw
+  file_047.zlk
+  file_030.hyg
+  file_063.nvj
+  file_029.jqy
+  file_040.opj
+  file_020.riv
+  file_037.bph
+  file_038.gxi
+  file_008.toc
+  file_021.rlg
+  file_022.pmn
+  file_011.wta
+  file_030.hyg
+  file_018.rix
+  file_034.tbi
+]
+
+files/file_000.lcd = [
+  file_024.isn
+  file_021.rlg
+  file_033.yqr
+  file_021.rlg
+  file_040.opj
+  file_048.wlz
+  file_008.toc
+  file_004.gnq
+  file_027.jte
+  file_058.ris
+  file_063.nvj
+  file_043.udl
+  file_004.gnq
+  file_022.pmn
+  file_007.lvd
+  file_024.isn
+  file_015.gbw
+  file_038.gxi
+  file_012.jgz
+  file_014.idx
+  file_052.kav
+  file_024.isn
+  file_027.jte
+  file_012.jgz
+  file_054.umx
+  file_010.oeg
+  file_027.jte
+  file_060.mgb
+  file_054.umx
+  file_038.gxi
+  file_018.rix
+  file_010.oeg
+  file_042.bba
+  file_055.ewv
+  file_021.rlg
+  file_008.toc
+  file_025.fju
+  file_062.hqt
+  file_008.toc
+  file_027.jte
+  file_029.jqy
+  file_032.quj
+  file_036.pdj
+  file_043.udl
+  file_008.toc
+  file_024.isn
+  file_061.aur
+  file_013.akd
+  file_022.pmn
+  file_029.jqy
+  file_004.gnq
+  file_022.pmn
+  file_040.opj
+  file_015.gbw
+  file_004.gnq
+  file_013.akd
+  file_052.kav
+  file_030.hyg
+  file_043.udl
+  file_008.toc
+  file_013.akd
+  file_004.gnq
+  file_008.toc
+]
+
+files/file_001.xhx = [
+  file_058.ris
+  file_063.nvj
+  file_045.pwb
+  file_038.gxi
+  file_003.zip
+  file_021.rlg
+  file_021.rlg
+  file_036.pdj
+  file_051.lls
+  file_021.rlg
+  file_057.tgr
+  file_037.bph
+  file_020.riv
+  file_012.jgz
+  file_054.umx
+  file_042.bba
+  file_045.pwb
+  file_031.bbq
+  file_025.fju
+  file_018.rix
+  file_038.gxi
+  file_041.olk
+  file_035.ndm
+  file_030.hyg
+  file_013.akd
+]
+
+files/file_002.fvo = [
+  file_061.aur
+  file_014.idx
+  file_041.olk
+  file_012.jgz
+  file_010.oeg
+  file_032.quj
+]
+
+files/file_003.zip = [
+  file_053.mlu
+  file_029.jqy
+  file_050.wvo
+  file_051.lls
+  file_047.zlk
+  file_026.fyj
+  file_060.mgb
+  file_036.pdj
+  file_051.lls
+  file_018.rix
+  file_062.hqt
+  file_043.udl
+  file_055.ewv
+  file_048.wlz
+  file_022.pmn
+  file_059.pbk
+  file_018.rix
+  file_042.bba
+  file_040.opj
+  file_023.ymw
+  file_063.nvj
+  file_053.mlu
+  file_006.lfp
+  file_044.tpn
+  file_012.jgz
+  file_015.gbw
+  file_013.akd
+  file_030.hyg
+  file_055.ewv
+  file_047.zlk
+  file_015.gbw
+  file_033.yqr
+  file_028.qco
+  file_024.isn
+  file_057.tgr
+]
+
+files/file_004.gnq = [
+  file_002.fvo
+  file_030.hyg
+  file_007.lvd
+  file_058.ris
+  file_054.umx
+  file_031.bbq
+  file_057.tgr
+  file_024.isn
+  file_055.ewv
+  file_059.pbk
+  file_052.kav
+  file_007.lvd
+  file_054.umx
+  file_027.jte
+  file_037.bph
+  file_006.lfp
+  file_024.isn
+  file_026.fyj
+  file_003.zip
+  file_020.riv
+  file_025.fju
+  file_040.opj
+  file_040.opj
+  file_002.fvo
+  file_028.qco
+  file_043.udl
+  file_063.nvj
+  file_042.bba
+  file_064.sap
+  file_016.fir
+  file_006.lfp
+  file_063.nvj
+  file_000.lcd
+  file_005.knr
+  file_016.fir
+  file_053.mlu
+  file_043.udl
+  file_036.pdj
+  file_034.tbi
+  file_063.nvj
+  file_005.knr
+  file_058.ris
+  file_057.tgr
+  file_064.sap
+]
+[PASS] File structure and contents logged
+
++ Test 1: Directory Existence
+[TEST] Checking if ./files/ directory exists
+[PASS] Directory ./files/ exists
+
++ Test 2: File Naming Convention
+[TEST] Checking file naming pattern: file_XXX.EXT
+[INFO] Found 65 files
+[PASS] All files follow naming convention file_XXX.EXT
+
++ Test 3: File Uniqueness
+[TEST] Checking that all file numbers are unique
+[PASS] All 65 file numbers are unique
+
++ Test 4: Directory Naming Convention
+[TEST] Checking directory naming pattern: dir_XXX
+[INFO] Found 12 subdirectories
+[PASS] All directories follow naming convention dir_XXX
+
++ Test 5: Directory Uniqueness
+[TEST] Checking that all directory numbers are unique
+[PASS] All 12 directory numbers are unique
+
++ Test 6: Maximum Depth Constraint
+[TEST] Checking that directory depth does not exceed MAX_DEPTH=3
+[PASS] All directories respect MAX_DEPTH=3 (max found: 2)
+
++ Test 7: Files Per Directory Constraint
+[TEST] Checking that each directory has 1-5 files
+[PASS] All directories have valid file counts (1-5)
+
++ Test 8: Subdirectories Per Directory Constraint
+[TEST] Checking that each directory has 0-3 subdirectories
+[PASS] All directories have valid subdirectory counts (0-3)
+
++ Test 9: Link Structure Validation
+[TEST] Validating link structure for type: random
+[INFO] Checking RANDOM structure: validating link integrity
+[PASS] All links reference existing files (random structure)
+
++ Test 10: Self-Link Check
+[TEST] Checking that no file links to itself
+[PASS] No self-links found
+
++ Test Summary
+Total Tests: 11
+Passed: 11
+Failed: 0
+
+========================================
+ALL TESTS PASSED!
+========================================

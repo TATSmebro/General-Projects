@@ -1,0 +1,24 @@
+========================================
+TEST: random with 4 threads
+========================================
+
+--- ACTUAL OUTPUT (First 20 lines) ---
+files/dir_000/file_009.oqb|file_009.oqb|[file_003.sop,file_004.drv,file_010.ugn,file_007.udo]|[file_003.sop,file_001.lyt,file_010.ugn,file_006.zus,file_005.xey]
+files/dir_000/file_006.zus|file_006.zus|[file_004.drv,file_001.lyt,file_002.qjw,file_013.lyt,file_014.kxn,file_012.bzz,file_009.oqb,file_007.udo]|[file_003.sop,file_013.lyt,file_012.bzz,file_010.ugn,file_005.xey,file_007.udo]
+files/dir_000/file_005.xey|file_005.xey|[file_003.sop,file_001.lyt,file_002.qjw,file_000.jxv,file_011.aac,file_010.ugn,file_009.oqb,file_006.zus]|[]
+files/dir_000/file_008.ldn|file_008.ldn|[file_004.drv,file_001.lyt,file_011.aac,file_012.bzz,file_010.ugn]|[]
+files/dir_000/file_007.udo|file_007.udo|[file_003.sop,file_004.drv,file_001.lyt,file_002.qjw,file_000.jxv,file_006.zus]|[file_003.sop,file_004.drv,file_000.jxv,file_011.aac,file_012.bzz,file_010.ugn,file_009.oqb,file_006.zus]
+files/file_003.sop|file_003.sop|[file_012.bzz,file_010.ugn,file_009.oqb,file_006.zus,file_007.udo]|[file_000.jxv,file_011.aac,file_014.kxn,file_012.bzz,file_010.ugn,file_009.oqb,file_005.xey,file_007.udo]
+files/file_004.drv|file_004.drv|[file_002.qjw,file_014.kxn,file_007.udo]|[file_000.jxv,file_011.aac,file_014.kxn,file_010.ugn,file_009.oqb,file_006.zus,file_008.ldn,file_007.udo]
+files/file_001.lyt|file_001.lyt|[file_013.lyt,file_011.aac,file_009.oqb]|[file_002.qjw,file_013.lyt,file_006.zus,file_005.xey,file_008.ldn,file_007.udo]
+files/file_002.qjw|file_002.qjw|[file_001.lyt,file_011.aac,file_012.bzz]|[file_004.drv,file_000.jxv,file_011.aac,file_012.bzz,file_006.zus,file_005.xey,file_007.udo]
+files/file_000.jxv|file_000.jxv|[file_003.sop,file_004.drv,file_002.qjw,file_011.aac,file_012.bzz,file_007.udo]|[file_005.xey,file_007.udo]
+files/dir_001/file_013.lyt|file_013.lyt|[file_001.lyt,file_006.zus]|[file_001.lyt,file_014.kxn,file_006.zus]
+files/dir_001/file_011.aac|file_011.aac|[file_003.sop,file_004.drv,file_002.qjw,file_007.udo]|[file_001.lyt,file_002.qjw,file_000.jxv,file_014.kxn,file_005.xey,file_008.ldn]
+files/dir_001/file_014.kxn|file_014.kxn|[file_003.sop,file_004.drv,file_013.lyt,file_011.aac,file_012.bzz]|[file_004.drv,file_006.zus]
+files/dir_001/file_012.bzz|file_012.bzz|[file_003.sop,file_002.qjw,file_006.zus,file_007.udo]|[file_003.sop,file_002.qjw,file_000.jxv,file_014.kxn,file_006.zus,file_008.ldn]
+files/dir_001/file_010.ugn|file_010.ugn|[file_003.sop,file_004.drv,file_009.oqb,file_006.zus,file_007.udo]|[file_003.sop,file_009.oqb,file_005.xey,file_008.ldn]
+... (see part-1-outputs/random_4_file_links.txt for full content)
+
+--- VERIFICATION REPORT ---
+SUCCESS: Verified 15 files. All links match.

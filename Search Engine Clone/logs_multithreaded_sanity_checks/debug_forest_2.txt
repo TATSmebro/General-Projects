@@ -1,0 +1,24 @@
+========================================
+TEST: forest with 2 threads
+========================================
+
+--- ACTUAL OUTPUT (First 20 lines) ---
+files/dir_001/file_012.tap|file_012.tap|[file_011.kfw]|[file_013.xji]
+files/dir_001/file_011.kfw|file_011.kfw|[file_010.kyo]|[file_012.tap]
+files/dir_001/file_010.kyo|file_010.kyo|[file_014.imf]|[file_011.kfw]
+files/dir_001/file_014.imf|file_014.imf|[file_013.xji]|[file_010.kyo]
+files/dir_001/file_013.xji|file_013.xji|[file_012.tap]|[file_014.imf]
+files/file_004.kkg|file_004.kkg|[file_003.hke]|[file_000.pld]
+files/file_002.ftg|file_002.ftg|[file_001.bsm]|[file_003.hke]
+files/file_001.bsm|file_001.bsm|[file_000.pld]|[file_002.ftg]
+files/file_000.pld|file_000.pld|[file_004.kkg]|[file_001.bsm]
+files/file_003.hke|file_003.hke|[file_002.ftg]|[file_004.kkg]
+files/dir_000/file_005.aun|file_005.aun|[file_009.lua]|[file_006.wks]
+files/dir_000/file_009.lua|file_009.lua|[file_008.din]|[file_005.aun]
+files/dir_000/file_008.din|file_008.din|[file_007.ofl]|[file_009.lua]
+files/dir_000/file_006.wks|file_006.wks|[file_005.aun]|[file_007.ofl]
+files/dir_000/file_007.ofl|file_007.ofl|[file_006.wks]|[file_008.din]
+... (see part-1-outputs/forest_2_file_links.txt for full content)
+
+--- VERIFICATION REPORT ---
+SUCCESS: Verified 15 files. All links match.

@@ -1,0 +1,6 @@
+pexpect
+matplotlib
+numpy
+scipy
+pandas
+seaborn
